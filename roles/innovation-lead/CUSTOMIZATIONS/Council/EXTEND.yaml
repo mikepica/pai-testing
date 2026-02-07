@@ -1,0 +1,7 @@
+# EXTEND.yaml
+skill: Council
+extends:
+  - PREFERENCES.md
+merge_strategy: override
+enabled: true
+description: "Custom 3-perspective evaluation council for innovation portfolio decisions"

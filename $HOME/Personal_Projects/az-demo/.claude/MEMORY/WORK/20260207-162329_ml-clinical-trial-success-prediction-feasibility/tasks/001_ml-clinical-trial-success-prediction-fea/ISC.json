@@ -1,0 +1,10 @@
+{
+  "taskId": "001_ml-clinical-trial-success-prediction-fea",
+  "status": "PENDING",
+  "effortLevel": "QUICK",
+  "criteria": [],
+  "antiCriteria": [],
+  "satisfaction": null,
+  "createdAt": "2026-02-07T16:23:29+00:00",
+  "updatedAt": "2026-02-07T16:23:29+00:00"
+}

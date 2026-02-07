@@ -1,0 +1,7 @@
+# EXTEND.yaml
+skill: THEALGORITHM
+extends:
+  - PREFERENCES.md
+merge_strategy: override
+enabled: true
+description: "Effort defaults and ISC preferences for idea evaluation workflows"

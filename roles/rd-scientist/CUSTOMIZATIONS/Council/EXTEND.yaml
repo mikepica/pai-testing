@@ -1,0 +1,7 @@
+# EXTEND.yaml
+skill: Council
+extends:
+  - PREFERENCES.md
+merge_strategy: override
+enabled: true
+description: "Council minimized — FirstPrinciples is primary thinking tool for R&D"
