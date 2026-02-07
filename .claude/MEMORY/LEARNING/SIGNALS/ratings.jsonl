@@ -16,3 +16,10 @@
 {"timestamp":"2026-02-07T17:42:46+00:00","rating":4,"session_id":"f1c38553-8d8a-4e93-b50e-1f48b332a709","source":"implicit","sentiment_summary":"Mild frustration about unclear updates and missing deliverables","confidence":0.75}
 {"timestamp":"2026-02-07T17:47:43+00:00","rating":5,"session_id":"f1c38553-8d8a-4e93-b50e-1f48b332a709","source":"implicit","sentiment_summary":"Acknowledgment with no emotional content","confidence":0.95}
 {"timestamp":"2026-02-07T17:48:21+00:00","rating":5,"session_id":"f1c38553-8d8a-4e93-b50e-1f48b332a709","source":"implicit","sentiment_summary":"Neutral command, no emotional indicators present","confidence":0.95}
+{"timestamp":"2026-02-07T17:50:20+00:00","rating":5,"session_id":"3a5a3252-5633-42ea-9654-84ccad000557","source":"implicit","sentiment_summary":"Neutral technical inquiry, no emotional sentiment expressed","confidence":0.95}
+{"timestamp":"2026-02-07T17:51:37+00:00","rating":5,"session_id":"7a04ed8e-f977-429c-9c8c-58b5a7930faf","source":"implicit","sentiment_summary":"Neutral command request, no emotional indicator","confidence":0.95}
+{"timestamp":"2026-02-07T17:55:00+00:00","rating":7,"session_id":"7a04ed8e-f977-429c-9c8c-58b5a7930faf","source":"implicit","sentiment_summary":"Satisfied with concise, accurate project status response","confidence":0.85}
+{"timestamp":"2026-02-07T17:58:01+00:00","rating":5,"session_id":"3a5a3252-5633-42ea-9654-84ccad000557","source":"implicit","sentiment_summary":"Task completion notification, no emotional content","confidence":0.95}
+{"timestamp":"2026-02-07T18:02:10+00:00","rating":5,"session_id":"3a5a3252-5633-42ea-9654-84ccad000557","source":"implicit","sentiment_summary":"Task completion notification, no emotional signal","confidence":0.95}
+{"timestamp":"2026-02-07T18:14:17+00:00","rating":6,"session_id":"3a5a3252-5633-42ea-9654-84ccad000557","source":"implicit","sentiment_summary":"Appreciative of shared folder, curious about tmp usage","confidence":0.75}
+{"timestamp":"2026-02-07T18:16:09+00:00","rating":5,"session_id":"5c0eb5cb-a47e-45ee-9c7f-816183a7d9d1","source":"implicit","sentiment_summary":"Direct command, no emotional content","confidence":0.95}

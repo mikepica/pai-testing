@@ -1,0 +1,10 @@
+{
+  "taskId": "001_status-of-my-projects",
+  "status": "PENDING",
+  "effortLevel": "TRIVIAL",
+  "criteria": [],
+  "antiCriteria": [],
+  "satisfaction": null,
+  "createdAt": "2026-02-07T17:51:37+00:00",
+  "updatedAt": "2026-02-07T17:57:53+00:00"
+}

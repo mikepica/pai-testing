@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Learning-Plans/memory.md",
+                "file": "Learning-Plans/overview.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "memory"
+              "title": "overview"
             }
           }
         ]
@@ -33,12 +33,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "roles/innovation-lead/TELOS/STRATEGIES.md",
+                "file": "Learning-Plans/memory.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "STRATEGIES"
+              "title": "memory"
             }
           }
         ]
@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "roles/innovation-lead/TELOS/STRATEGIES.md",
+                "file": "Learning-Plans/overview.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for STRATEGIES"
+              "title": "Backlinks for overview"
             }
           },
           {
@@ -133,12 +133,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "roles/innovation-lead/TELOS/STRATEGIES.md",
+                "file": "Learning-Plans/overview.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from STRATEGIES"
+              "title": "Outgoing links from overview"
             }
           },
           {
@@ -176,13 +176,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "roles/innovation-lead/TELOS/STRATEGIES.md",
+                "file": "Learning-Plans/overview.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of STRATEGIES"
+              "title": "Outline of overview"
             }
           }
         ]
@@ -203,12 +203,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "a420c4adac1f32dc",
+  "active": "bd429152e9ecb356",
   "lastOpenFiles": [
-    "roles/innovation-lead/TELOS/PROJECTS.md",
-    "roles/innovation-lead/TELOS/STRATEGIES.md",
     "Learning-Plans/memory.md",
+    "roles/innovation-lead/TELOS/STRATEGIES.md",
     "Learning-Plans/overview.md",
+    "roles/innovation-lead/TELOS/PROJECTS.md",
     "roles/innovation-lead/TELOS/NARRATIVES.md",
     "roles/innovation-lead/TELOS/MISSION.md",
     "roles/innovation-lead/TELOS/BELIEFS.md",
