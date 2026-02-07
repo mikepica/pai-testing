@@ -131,12 +131,6 @@ execution:
     effort_min: STANDARD
     use_when: "UX/UI design, user-centered solutions"
 
-  pentester:
-    subagent_type: Pentester
-    model: sonnet
-    effort_min: THOROUGH
-    use_when: "Security testing, vulnerability assessment"
-
   ralph_loop:
     type: iterative_loop
     model: sonnet
@@ -180,11 +174,6 @@ parallel:
 
 # === VERIFICATION ===
 verification:
-  browser:
-    skill: Browser
-    effort_min: STANDARD
-    use_when: "Web application validation, visual verification"
-
   skeptical_verifier:
     traits: [skeptical, meticulous, adversarial]
     model: sonnet

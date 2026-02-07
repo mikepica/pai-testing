@@ -277,7 +277,6 @@ This makes selection **visible** (you can see if wrong capabilities were picked)
 | Analyst | Algorithm (subagent_type=Algorithm) | Analysis, review, evaluation, assessment |
 | QA | QATester (subagent_type=QATester) | Testing, verification, browser validation |
 | Design | Designer (subagent_type=Designer) | UX/UI design |
-| Security | Pentester (subagent_type=Pentester) | Security testing, vulnerability assessment |
 | Explore | Explore (subagent_type=Explore) | Codebase exploration, file discovery |
 
 ### Composition Patterns
@@ -292,7 +291,7 @@ Capabilities combine using named patterns:
 | **Fan-in** | [A, B, C] → D | Multiple researchers → Spotcheck synthesis | Merging parallel results |
 | **Gate** | A → check → B or retry | Engineer → QA → Deploy or fix | Quality gate before progression |
 | **Escalation** | A(haiku) → A(sonnet) → A(opus) | Model upgrade on failure | Complexity exceeded model tier |
-| **Specialist** | Single A | Pentester for security review | One domain, deep expertise |
+| **Specialist** | Single A | Engineer for API migration | One domain, deep expertise |
 
 ### Pass 1 → Pass 2 Examples
 
