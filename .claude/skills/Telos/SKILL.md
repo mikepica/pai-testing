@@ -150,6 +150,14 @@ All files located in `~/.claude/skills/PAI/USER/TELOS/`:
 - **PREDICTIONS.md** - Predictions about the future
 - **TRAUMAS.md** - Past traumas (for context and healing)
 
+### Talent Profile
+- **SKILLS.md** - Technical, domain, and soft skills with proficiency/years/last-used
+- **EXPERIENCE.md** - Career history and project history
+- **INTERESTS.md** - Professional interests, learning goals, mentoring preferences
+- **AVAILABILITY.md** - Capacity %, schedule constraints, project bandwidth
+- **CERTIFICATIONS.md** - Credentials, education, publications
+- **DOMAIN_EXPERTISE.md** - Primary/secondary domains with depth levels
+
 ### Change Tracking
 - **updates.md** - Comprehensive changelog of all TELOS updates
 
@@ -179,7 +187,7 @@ The workflow provides:
 - Proper formatting and structure
 
 **Valid files for updates:**
-BELIEFS.md, BOOKS.md, CHALLENGES.md, FRAMES.md, GOALS.md, LEARNED.md, MISSION.md, MODELS.md, MOVIES.md, NARRATIVES.md, PREDICTIONS.md, PROBLEMS.md, PROJECTS.md, STRATEGIES.md, TELOS.md, TRAUMAS.md, WISDOM.md, WRONG.md
+BELIEFS.md, BOOKS.md, CHALLENGES.md, FRAMES.md, GOALS.md, LEARNED.md, MISSION.md, MODELS.md, MOVIES.md, NARRATIVES.md, PREDICTIONS.md, PROBLEMS.md, PROJECTS.md, STRATEGIES.md, TELOS.md, TRAUMAS.md, WISDOM.md, WRONG.md, SKILLS.md, EXPERIENCE.md, INTERESTS.md, AVAILABILITY.md, CERTIFICATIONS.md, DOMAIN_EXPERTISE.md
 
 ---
 

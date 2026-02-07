@@ -32,6 +32,12 @@
  * - TRAUMAS.md - Past traumas
  * - WISDOM.md - Accumulated wisdom
  * - WRONG.md - Things I was wrong about
+ * - SKILLS.md - Technical, domain, and soft skills
+ * - EXPERIENCE.md - Career history and project history
+ * - INTERESTS.md - Professional interests, learning goals, mentoring
+ * - AVAILABILITY.md - Capacity and schedule constraints
+ * - CERTIFICATIONS.md - Credentials, education, publications
+ * - DOMAIN_EXPERTISE.md - Domain expertise with depth levels
  */
 
 import { readFileSync, writeFileSync, copyFileSync, existsSync } from 'fs';
@@ -47,7 +53,9 @@ const VALID_FILES = [
   'BELIEFS.md', 'BOOKS.md', 'CHALLENGES.md', 'FRAMES.md', 'GOALS.md',
   'LESSONS.md', 'MISSION.md', 'MODELS.md', 'MOVIES.md', 'NARRATIVES.md',
   'PREDICTIONS.md', 'PROBLEMS.md', 'PROJECTS.md', 'STRATEGIES.md',
-  'TELOS.md', 'TRAUMAS.md', 'WISDOM.md', 'WRONG.md'
+  'TELOS.md', 'TRAUMAS.md', 'WISDOM.md', 'WRONG.md',
+  'SKILLS.md', 'EXPERIENCE.md', 'INTERESTS.md', 'AVAILABILITY.md',
+  'CERTIFICATIONS.md', 'DOMAIN_EXPERTISE.md'
 ];
 
 function getPacificTimestamp(): string {

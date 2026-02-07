@@ -14,7 +14,8 @@
     "skills/PAI/USER/AISTEERINGRULES.md",
     "skills/PAI/USER/DAIDENTITY.md",
     "skills/IdeaPipeline/SKILL.md",
-    "skills/ConstraintArticulator/SKILL.md"
+    "skills/ConstraintArticulator/SKILL.md",
+    "skills/TalentProfile/SKILL.md"
   ],
   "daidentity": {
     "name": "PAI",
@@ -170,6 +171,10 @@
           },
           {
             "type": "command",
+            "command": "/Users/mikepica/.bun/bin/bun /Users/mikepica/Personal_Projects/az-demo/.claude/hooks/ProfileSyncDetector.hook.ts"
+          },
+          {
+            "type": "command",
             "command": "/Users/mikepica/.bun/bin/bun /Users/mikepica/Personal_Projects/az-demo/.claude/hooks/SessionSummary.hook.ts"
           }
         ]
@@ -261,11 +266,11 @@
   },
   "max_tokens": 4096,
   "counts": {
-    "skills": 31,
-    "workflows": 129,
-    "hooks": 17,
-    "signals": 27,
+    "skills": 16,
+    "workflows": 51,
+    "hooks": 18,
+    "signals": 34,
     "files": 38,
-    "updatedAt": "2026-02-07T18:32:59.697Z"
+    "updatedAt": "2026-02-07T19:36:27.106Z"
   }
 }
