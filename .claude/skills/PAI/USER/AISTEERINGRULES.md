@@ -38,8 +38,16 @@ Correct
 
 ## Your Rules
 
-<!-- Add your personal steering rules below using the format above. -->
-<!-- Each rule should address a real pattern you have observed. -->
+### Update System of Record Before Capturing Learning
+
+Statement
+: When a user makes a decision that changes project status, mission, or strategy, update the authoritative TELOS files FIRST, then capture reasoning in Memory. TELOS is what future sessions read; Memory is what they might find. Route by decision type: project status changes → TELOS/PROJECTS.md, mission pivots → TELOS/MISSION.md, new strategies → TELOS/STRATEGIES.md.
+
+Bad
+: User says "deprioritize Predictive Biomarkers." AI writes a learning file to MEMORY/LEARNING/STRATEGY/ and updates a work session thread. TELOS/PROJECTS.md still shows "Idea Stage." Next session reads TELOS, doesn't know the project was killed.
+
+Correct
+: User says "deprioritize Predictive Biomarkers." AI reads TELOS/PROJECTS.md, updates status to "Deprioritized" with rationale, updates MISSION.md if the decision reflects a mission change, adds new strategy to STRATEGIES.md if applicable. THEN writes the reasoning to Memory as a learning signal.
 
 ---
 
