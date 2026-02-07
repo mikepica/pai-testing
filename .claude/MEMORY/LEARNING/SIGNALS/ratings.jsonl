@@ -23,3 +23,8 @@
 {"timestamp":"2026-02-07T18:02:10+00:00","rating":5,"session_id":"3a5a3252-5633-42ea-9654-84ccad000557","source":"implicit","sentiment_summary":"Task completion notification, no emotional signal","confidence":0.95}
 {"timestamp":"2026-02-07T18:14:17+00:00","rating":6,"session_id":"3a5a3252-5633-42ea-9654-84ccad000557","source":"implicit","sentiment_summary":"Appreciative of shared folder, curious about tmp usage","confidence":0.75}
 {"timestamp":"2026-02-07T18:16:09+00:00","rating":5,"session_id":"5c0eb5cb-a47e-45ee-9c7f-816183a7d9d1","source":"implicit","sentiment_summary":"Direct command, no emotional content","confidence":0.95}
+{"timestamp":"2026-02-07T18:29:35+00:00","rating":5,"session_id":"0fb351b8-ee6d-4b3a-8fb2-a1b3cbcdabc1","source":"implicit","sentiment_summary":"Neutral technical inquiry, no sentiment toward PAI","confidence":0.95}
+{"timestamp":"2026-02-07T18:32:20+00:00","rating":5,"session_id":"0fb351b8-ee6d-4b3a-8fb2-a1b3cbcdabc1","source":"implicit","sentiment_summary":"Clarifying question about system workflow","confidence":0.9}
+{"timestamp":"2026-02-07T19:01:23+00:00","rating":5,"session_id":"7b6c9143-f8ff-4931-ab12-866d3e1fc218","source":"implicit","sentiment_summary":"Neutral request for assistance with codebase assessment","confidence":0.95}
+{"timestamp":"2026-02-07T19:07:32+00:00","rating":5,"session_id":"cc681901-8edb-4a0c-9fdb-efb2bddc9cb1","source":"implicit","sentiment_summary":"Technical brainstorm, no emotional indicator toward PAI","confidence":0.95}
+{"timestamp":"2026-02-07T19:25:01+00:00","rating":5,"session_id":"83d94ef3-0cb6-4bf7-9635-ebf609b276d8","source":"implicit","sentiment_summary":"Technical command, no emotional content","confidence":0.9}

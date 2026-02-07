@@ -1,0 +1,10 @@
+{
+  "taskId": "001_assess-codebase-for-cleanup",
+  "status": "PENDING",
+  "effortLevel": "STANDARD",
+  "criteria": [],
+  "antiCriteria": [],
+  "satisfaction": null,
+  "createdAt": "2026-02-07T19:01:22+00:00",
+  "updatedAt": "2026-02-07T19:01:22+00:00"
+}

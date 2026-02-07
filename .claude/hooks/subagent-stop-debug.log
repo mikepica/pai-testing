@@ -1496,3 +1496,568 @@ The agent is working in the background. You will be notified automatically when 
 Continue with other tasks.
 output_file: /private/tmp/claude-501/-Users-mikepica-Personal-Projects-az-demo/tasks/afdd4df.output
 To check progress before completion (optional), use Read or Bash tail on the output file.
+[2026-02-07T18:16:36.663Z] 🔍 SubagentStop hook started
+[2026-02-07T18:16:36.666Z] Input received: {"session_id":"5c0eb5cb-a47e-45ee-9c7f-816183a7d9d1","transcript_path":"/Users/mikepica/.claude/proj...
+[2026-02-07T18:16:36.666Z] Transcript path: /Users/mikepica/.claude/projects/-Users-mikepica-Personal-Projects-az-demo/5c0eb5cb-a47e-45ee-9c7f-816183a7d9d1.jsonl
+[2026-02-07T18:16:36.666Z] Starting findTaskResult...
+[2026-02-07T18:16:36.869Z] No Task result found in transcript after waiting
+[2026-02-07T18:29:56.593Z] 🔍 SubagentStop hook started
+[2026-02-07T18:29:56.596Z] Input received: {"session_id":"0fb351b8-ee6d-4b3a-8fb2-a1b3cbcdabc1","transcript_path":"/Users/mikepica/.claude/proj...
+[2026-02-07T18:29:56.596Z] Transcript path: /Users/mikepica/.claude/projects/-Users-mikepica-Personal-Projects-az-demo/0fb351b8-ee6d-4b3a-8fb2-a1b3cbcdabc1.jsonl
+[2026-02-07T18:29:56.596Z] Starting findTaskResult...
+[2026-02-07T18:29:56.798Z] No Task result found in transcript after waiting
+[2026-02-07T18:33:02.433Z] 🔍 SubagentStop hook started
+[2026-02-07T18:33:02.436Z] Input received: {"session_id":"0fb351b8-ee6d-4b3a-8fb2-a1b3cbcdabc1","transcript_path":"/Users/mikepica/.claude/proj...
+[2026-02-07T18:33:02.436Z] Transcript path: /Users/mikepica/.claude/projects/-Users-mikepica-Personal-Projects-az-demo/0fb351b8-ee6d-4b3a-8fb2-a1b3cbcdabc1.jsonl
+[2026-02-07T18:33:02.436Z] Starting findTaskResult...
+[2026-02-07T18:33:02.639Z] No Task result found in transcript after waiting
+[2026-02-07T19:02:23.241Z] 🔍 SubagentStop hook started
+[2026-02-07T19:02:23.243Z] Input received: {"session_id":"7b6c9143-f8ff-4931-ab12-866d3e1fc218","transcript_path":"/Users/mikepica/.claude/proj...
+[2026-02-07T19:02:23.243Z] Transcript path: /Users/mikepica/.claude/projects/-Users-mikepica-Personal-Projects-az-demo/7b6c9143-f8ff-4931-ab12-866d3e1fc218.jsonl
+[2026-02-07T19:02:23.243Z] Starting findTaskResult...
+[2026-02-07T19:02:23.455Z] No Task result found in transcript after waiting
+[2026-02-07T19:02:28.951Z] 🔍 SubagentStop hook started
+[2026-02-07T19:02:28.954Z] Input received: {"session_id":"7b6c9143-f8ff-4931-ab12-866d3e1fc218","transcript_path":"/Users/mikepica/.claude/proj...
+[2026-02-07T19:02:28.954Z] Transcript path: /Users/mikepica/.claude/projects/-Users-mikepica-Personal-Projects-az-demo/7b6c9143-f8ff-4931-ab12-866d3e1fc218.jsonl
+[2026-02-07T19:02:28.954Z] Starting findTaskResult...
+[2026-02-07T19:02:28.959Z] Task output found, length: 7033
+[2026-02-07T19:02:28.959Z] Task output preview: epresents a sophisticated, modular skills system designed for problem-solving across research, security, development, visualization, and meta-cognitive domains.
+agentId: ac4c245 (for resuming to continue this agent's work if needed)
+<usage>total_tokens: 86923
+tool_uses: 25
+duration_ms: 42801</usage>
+[2026-02-07T19:02:28.959Z] Instance metadata: {"agent_type":"Explore"}
+[2026-02-07T19:02:28.960Z] No specific completion message found in Task output
+[2026-02-07T19:02:28.960Z] Full task output for debugging: Perfect! Now I have comprehensive information about the skills. Let me compile the complete inventory for you.
+
+## Comprehensive Skills Directory Inventory
+
+I've thoroughly explored the `.claude/skills/` directory at `/Users/mikepica/Personal_Projects/az-demo/.claude/skills/`. Here's a complete inventory of all **33 skills** with their descriptions and workflow counts:
+
+### CORE PAI SYSTEM SKILLS
+
+| Skill | Description | Workflows | Purpose |
+|-------|-------------|-----------|---------|
+| **PAI** | Personal AI Infrastructure core. The authoritative reference for how PAI works. | 0 | Meta-system defining the Algorithm v0.2.24, ISC criteria, capability selection, and thinking tools |
+| **THEALGORITHM** | The Algorithm execution framework | 0 | Reference system for structured problem-solving phases (OBSERVE, THINK, PLAN, BUILD, EXECUTE, VERIFY, LEARN) |
+| **Telos** | Life OS and project analysis. Handles personal TELOS context and project dependency mapping. | 4 | Update goals, extract interviews, create narrative points, write McKinsey-style reports |
+| **Prompting** | Meta-prompting system with templates and standards | 0 | Prompt engineering, template generation, dynamic agent composition via Handlebars |
+
+### THINKING & ANALYSIS SKILLS
+
+| Skill | Description | Workflows | Purpose |
+|-------|-------------|-----------|---------|
+| **Council** | Multi-agent debate system | 2 | DEBATE (3 rounds), QUICK (1 round) - collaborative intellectual friction |
+| **RedTeam** | Adversarial analysis with 32 parallel agents | 2 | ParallelAnalysis (stress-test), AdversarialValidation (compete proposals) |
+| **FirstPrinciples** | Foundational reasoning (physics-based thinking) | 3 | Deconstruct, Challenge, Reconstruct problems from fundamentals |
+| **BeCreative** | Extended thinking with Verbalized Sampling | 6 | StandardCreativity, MaximumCreativity, IdeaGeneration, TreeOfThoughts, DomainSpecific, TechnicalCreativityGemini3 |
+| **ConstraintArticulator** | Constraint articulation for problem-solving | 2 | Identify and surface hidden constraints |
+
+### RESEARCH & INTELLIGENCE SKILLS
+
+| Skill | Description | Workflows | Purpose |
+|-------|-------------|-----------|---------|
+| **Research** | Comprehensive research with 242+ Fabric patterns | 13 | Quick/Standard/Extensive modes, ExtractAlpha, Retrieve, YouTube extraction, web scraping, AI trends analysis |
+| **OSINT** | Open Source Intelligence gathering | 4 | PeopleLookup, CompanyLookup, CompanyDueDiligence, EntityLookup with parallel agents |
+| **Recon** | Security reconnaissance (passive & active) | 7 | PassiveRecon, IpRecon, DomainRecon, NetblockRecon, AsnRecon with WHOIS/DNS/IPInfo tools |
+| **PrivateInvestigator** | Ethical people finding with public data | 5 | FindPerson, SocialMediaSearch, PublicRecordsSearch, ReverseLookup, VerifyIdentity |
+| **Fabric** | Intelligent prompt pattern system (240+ patterns) | 2 | ExecutePattern, UpdatePatterns for content extraction, analysis, summarization, threat modeling |
+| **Evals** | Agent evaluation framework (code/model/human graders) | 6 | AlgorithmBridge, SuiteManager, FailureToTask, DomainPatterns with pass@k metrics |
+
+### SECURITY & ASSESSMENT SKILLS
+
+| Skill | Description | Workflows | Purpose |
+|-------|-------------|-----------|---------|
+| **WebAssessment** | Web security assessment and pentest methodology | 18 | UnderstandApplication, CreateThreatModel, Pentest (6-phase), Ffuf fuzzing, OSINT, WebApp testing |
+| **PromptInjection** | LLM prompt injection testing | 5 | Security testing of AI systems |
+
+### DEVELOPMENT & CREATION SKILLS
+
+| Skill | Description | Workflows | Purpose |
+|-------|-------------|-----------|---------|
+| **CreateSkill** | Skill creation and validation framework | 4 | CreateSkill, ValidateSkill, UpdateSkill, CanonicalizeSkill with TitleCase naming |
+| **CreateCLI** | TypeScript CLI generation (Tier 1/2/3) | 3 | CreateCli, AddCommand, UpgradeTier for production-ready command-line tools |
+| **Agents** | Dynamic agent composition system | 3 | CreateCustomAgent, ListTraits, SpawnParallelAgents with personality + voice mapping |
+| **Browser** | Debug-first browser automation (v2.0.0) | 5 | Navigation, queries (console/network/failed), interactions, management commands |
+| **Documents** | Document handling (PDF, DOCX, PPTX, XLSX) | 1 | Subskills for each format |
+
+### VISUALIZATION & CONTENT SKILLS
+
+| Skill | Description | Workflows | Purpose |
+|-------|-------------|-----------|---------|
+| **Art** | Complete visual content system | 19 | Essay headers, D3 dashboards, Mermaid diagrams, technical diagrams, timelines, frameworks, comparisons, PAI pack icons |
+| **IdeaPipeline** | AI project idea evaluation and refinement | 4 | EvaluateIdea, GenerateQuestions, SynthesizeResponses, RefineIdea with Algorithm integration |
+
+### SPECIALIZED SKILLS
+
+| Skill | Description | Workflows | Purpose |
+|-------|-------------|-----------|---------|
+| **BrightData** | Web scraping with BrightData MCP | 1 | Bypass CAPTCHA, advanced scraping |
+| **Apify** | Apify platform integration | 1 | Browser automation, specialized scrapers |
+| **VoiceServer** | Notification voice server | 1 | Voice announcements via ElevenLabs |
+| **SECUpdates** | SEC regulatory updates | 1 | Financial regulation monitoring |
+| **AnnualReports** | Annual report analysis | 0 | Financial document processing |
+| **Aphorisms** | Quote/aphorism curation | 4 | Collect and present wisdom |
+| **PAIUpgrade** | PAI system upgrades | 3 | Version management and system updates |
+
+---
+
+### WORKFLOW STATISTICS
+
+**Total Skills:** 33  
+**Total Workflows:** 154 workflows across all skills
+
+**Workflow Distribution:**
+- WebAssessment: 18 (largest)
+- Art: 19 (visualization-heavy)
+- Research: 13 (multi-mode)
+- Recon: 7 (multi-type)
+- BeCreative: 6 (diversified creativity)
+- Evals: 6 (grader types)
+- Telos: 4 (personal + project)
+- CreateSkill: 4 (skill lifecycle)
+- CreateCLI: 3 (CLI tiers)
+- Council: 2 (debate types)
+- RedTeam: 2 (analysis types)
+- Fabric: 2 (execution modes)
+- 18 skills with 1-5 workflows each
+
+### KEY ORGANIZATIONAL PATTERNS
+
+1. **Mandatory Voice Notifications** - All major skills require voice notifications via curl to `http://localhost:8888/notify`
+
+2. **User Customization** - Skills check `~/.claude/skills/PAI/USER/SKILLCUSTOMIZATIONS/[SkillName]/` for preferences that override defaults
+
+3. **Flat Structure** - Skills follow max 2-level depth (SkillName/Category/, no deeper)
+
+4. **Two-Tier Composition** - System (base) + User (customization) pattern for traits, voices, configurations
+
+5. **Parallel Execution Patterns** - OSINT (15 agents), PrivateInvestigator (15 agents), WebAssessment (parallel phases), Agents (custom composition)
+
+This inventory represents a sophisticated, modular skills system designed for problem-solving across research, security, development, visualization, and meta-cognitive domains.
+agentId: ac4c245 (for resuming to continue this agent's work if needed)
+<usage>total_tokens: 86923
+tool_uses: 25
+duration_ms: 42801</usage>
+[2026-02-07T19:02:39.769Z] 🔍 SubagentStop hook started
+[2026-02-07T19:02:39.772Z] Input received: {"session_id":"7b6c9143-f8ff-4931-ab12-866d3e1fc218","transcript_path":"/Users/mikepica/.claude/proj...
+[2026-02-07T19:02:39.772Z] Transcript path: /Users/mikepica/.claude/projects/-Users-mikepica-Personal-Projects-az-demo/7b6c9143-f8ff-4931-ab12-866d3e1fc218.jsonl
+[2026-02-07T19:02:39.772Z] Starting findTaskResult...
+[2026-02-07T19:02:39.775Z] Task output found, length: 7087
+[2026-02-07T19:02:39.775Z] Task output preview: e
+
+The `.claude/` directory is the **PAI infrastructure** (shared across all roles), while `/roles/` and `/shared/` are the **project-specific customizations**.
+agentId: a644c68 (for resuming to continue this agent's work if needed)
+<usage>total_tokens: 40205
+tool_uses: 20
+duration_ms: 41361</usage>
+[2026-02-07T19:02:39.775Z] Instance metadata: {"agent_type":"Explore"}
+[2026-02-07T19:02:39.776Z] No specific completion message found in Task output
+[2026-02-07T19:02:39.776Z] Full task output for debugging: Perfect! Now I have a complete picture. Let me compile the comprehensive report:
+
+## Complete Directory Structure Analysis: `/Users/mikepica/Personal_Projects/az-demo/`
+
+### 1. TOP-LEVEL STRUCTURE (Outside `.claude/`)
+
+This repository is **primarily a PAI (Personal AI) demo project**, not a traditional application. The core project content consists of:
+
+**Core Project Directories:**
+- `/roles/` - 3 distinct personas with role-based configurations:
+  - `innovation-lead/` - Alex Rivera (portfolio manager)
+  - `rd-scientist/` - Dr. Sarah Okonkwo (bench scientist)
+  - `data-scientist/` - Priya Mehta (ML engineer)
+  
+  Each role contains:
+  - `TELOS/` - Identity files (MISSION, BELIEFS, GOALS, PROJECTS, CHALLENGES, MODELS, NARRATIVES, STRATEGIES, IDEAS, LEARNED)
+  - `CUSTOMIZATIONS/` - Role-specific skill preferences (Council and THEALGORITHM)
+
+- `/shared/` - Cross-role collaboration artifacts:
+  - `ideas/` - Proposed ideas to be evaluated
+  - `questions/` - Generated questions from Innovation Lead to team members
+  - `responses/` - Responses from team members back to Innovation Lead
+  - Currently populated with clinical-trial-predictor subdirectories
+
+- `/Learning-Plans/` - Documentation:
+  - `overview.md` - 60-90 minute hands-on walkthrough of the full PAI demo
+  - `memory.md` - 45-60 minute guide to the memory system (WORK, LEARNING, RESEARCH, STATE)
+
+**Core Project Files:**
+- `switch-role.sh` - Bash script that swaps TELOS and SKILLCUSTOMIZATIONS to change personas
+- `.gitignore` - Ignores node_modules, .db/.sqlite files, .env files, .DS_Store
+
+**Configuration Files:**
+- `.obsidian/` - Obsidian vault configuration (app.json, appearance.json, core-plugins.json, workspace.json)
+
+### 2. `.CLAUDE/MEMORY/` DIRECTORY STRUCTURE
+
+This is the PAI memory system with 4 major subdirectories:
+
+**WORK/** - Session-level task tracking (20 directories as of Feb 7)
+- One directory per work session (timestamp-based names like `20260207-155826_is-this-loading-properly-for-alex-rivera`)
+- Each contains:
+  - `META.yaml` - session metadata (title, created_at, effort level)
+  - `tasks/*/ISC.json` - tracks success criteria with satisfaction scores
+  - `tasks/*/THREAD.md` - execution logs with status frontmatter
+
+**LEARNING/** - Derived insights captured during Algorithm execution
+- `ALGORITHM/` - Task execution learnings (30+ files in 2026-02 subdirectory)
+  - Named `YYYY-MM/TIMESTAMP_LEARNING_sentiment-rating-X.md` or `TIMESTAMP_LEARNING_task-completion.md`
+  - Frontmatter: capture_type, timestamp, source (algorithm_learn_phase/implicit-sentiment/explicit-rating/heuristic), tags
+  - Sections: Summary, What Worked, What Failed, Key Insight
+
+- `CONSTRAINTS/` - Constraint-classification learnings
+  - Example: `2026-02-07_data-scientist-clinical-trial-predictor.md`
+  
+- `IDEA_EVALUATION/` - Evaluations of proposed ideas
+  
+- `STRATEGY/` - Strategic decision learnings
+  
+- `SYSTEM/` - Infrastructure/tooling learnings
+  
+- `SIGNALS/` - User satisfaction ratings (JSONL format)
+  - `ratings.jsonl` - each line is JSON with timestamp, rating (1-10), source, sentiment_summary, confidence
+  
+- `SYNTHESIS/` - Pattern analysis reports (currently empty)
+
+**RESEARCH/** - Captured agent/subagent outputs
+- Named `YYYY-MM/TIMESTAMP_AGENT-<agentname>_RESEARCH_<description>.md`
+- 3 research files present on Feb 7
+
+**STATE/** - Ephemeral runtime data (safe to delete)
+- `current-work.json` - pointer to active work session
+- `git-cache_Users_*.sh` - git status cache
+- `learning-cache.sh` - learning queries cache
+- `model-cache.txt` - model info cache
+- `location-cache.json`, `weather-cache.json`, `tab-title.json` - UI state caches
+- `integrity-state.json` - validation state
+
+### 3. OTHER `.CLAUDE/` INFRASTRUCTURE
+
+**Key Directories:**
+- `.claude/skills/` - 33+ installed skills (see below)
+- `.claude/hooks/` - Lifecycle trigger handlers
+  - AutoWorkCreation, ExplicitRatingCapture, ImplicitSentimentCapture, FormatReminder
+  - handlers/ subdirectory with ResponseCapture.ts and other handlers
+  - lib/ subdirectory with learning-utils.ts, paths.ts
+  
+- `.claude/agents/` - Custom agent definitions
+- `.claude/lib/` - Shared utility libraries
+- `.claude/VoiceServer/` - TTS/voice notification infrastructure
+- `.claude/Observability/` - Monitoring and observability tooling
+- `.claude/settings.json` - Main PAI configuration
+
+**Installed Skills (33 directories):**
+Agents, AnnualReports, Aphorisms, Apify, Art, BeCreative, BrightData, Browser, ConstraintArticulator, Council, CreateCLI, CreateSkill, Documents, Evals, Fabric, FirstPrinciples, IdeaPipeline, OSINT, **PAI** (core system), PAIUpgrade, PrivateInvestigator, Prompting, PromptInjection, Recon, RedTeam, Research, SECUpdates, Telos, **THEALGORITHM**, VoiceServer, WebAssessment
+
+The two core skills are:
+- **PAI** - Personal AI framework with TELOS, hooks, and memory system
+- **THEALGORITHM** - Execution engine (OBSERVE/THINK/PLAN/EXECUTE/VERIFY/LEARN 7-phase model)
+
+### 4. `.OBSIDIAN/` DIRECTORY
+
+Obsidian vault configuration for markdown note-taking:
+- `app.json` - Empty app settings
+- `appearance.json` - Theme and appearance settings
+- `core-plugins.json` - Core plugins list
+- `workspace.json` - Editor workspace state (6KB, recently modified)
+
+### 5. PROJECT-DEFINING FILES
+
+**No traditional package.json or requirements.txt** - This is not a standalone application. It's a **PAI configuration and demo environment**.
+
+**Key Documentation:**
+- `/Learning-Plans/overview.md` - The primary guide (402 lines)
+  - Acts 1-5: Role-switching demo with clinical trial predictor evaluation use case
+  - Act 6: Machinery inspection (MEMORY, hooks, skills)
+  - Cheat sheet of core concepts
+
+- `/Learning-Plans/memory.md` - Memory system deep-dive (473 lines)
+  - Acts 1-6: Directory structure, hook lifecycle, LEARN phase, QueryLearnings tool, ratings, synthesis
+
+### 6. WHAT THIS REPO ACTUALLY CONTAINS
+
+**Summary:** This is a **PAI v2.5 demonstration environment** for evaluating ideas across organizational roles. It's NOT:
+- A source code project
+- An application codebase
+- A traditional software package
+
+It IS:
+- A **role-playing demo** showing how one AI (Claude) can adopt different personas using TELOS + SKILLCUSTOMIZATIONS
+- A **collaborative workflow demo** showing idea evaluation with constraints
+- A **memory system demonstration** showing how learnings are captured from Algorithm execution
+- A **proof-of-concept** for the PAI framework with hooks, skills, and persistent MEMORY
+
+The actual project *logic* lives in:
+- `/roles/` - Persona definitions (MISSION, BELIEFS, CHALLENGES, etc.)
+- `/shared/` - Workflow artifacts (questions → responses → synthesis)
+- `.claude/MEMORY/` - Learning and session tracking
+- `.claude/skills/PAI/`, `.claude/skills/THEALGORITHM/` - Core execution engine
+
+The `.claude/` directory is the **PAI infrastructure** (shared across all roles), while `/roles/` and `/shared/` are the **project-specific customizations**.
+agentId: a644c68 (for resuming to continue this agent's work if needed)
+<usage>total_tokens: 40205
+tool_uses: 20
+duration_ms: 41361</usage>
+[2026-02-07T19:08:35.276Z] 🔍 SubagentStop hook started
+[2026-02-07T19:08:35.278Z] Input received: {"session_id":"cc681901-8edb-4a0c-9fdb-efb2bddc9cb1","transcript_path":"/Users/mikepica/.claude/proj...
+[2026-02-07T19:08:35.278Z] Transcript path: /Users/mikepica/.claude/projects/-Users-mikepica-Personal-Projects-az-demo/cc681901-8edb-4a0c-9fdb-efb2bddc9cb1.jsonl
+[2026-02-07T19:08:35.278Z] Starting findTaskResult...
+[2026-02-07T19:08:35.482Z] No Task result found in transcript after waiting
+[2026-02-07T19:19:46.543Z] 🔍 SubagentStop hook started
+[2026-02-07T19:19:46.545Z] Input received: {"session_id":"cc681901-8edb-4a0c-9fdb-efb2bddc9cb1","transcript_path":"/Users/mikepica/.claude/proj...
+[2026-02-07T19:19:46.546Z] Transcript path: /Users/mikepica/.claude/projects/-Users-mikepica-Personal-Projects-az-demo/cc681901-8edb-4a0c-9fdb-efb2bddc9cb1.jsonl
+[2026-02-07T19:19:46.546Z] Starting findTaskResult...
+[2026-02-07T19:19:46.549Z] Task output found, length: 10125
+[2026-02-07T19:19:46.549Z] Task output preview: e an Innovation Lead can pose questions to scientists, collect constrained responses, and synthesize recommendations in a structured, learning-capturing system.
+agentId: a609c80 (for resuming to continue this agent's work if needed)
+<usage>total_tokens: 59213
+tool_uses: 22
+duration_ms: 46991</usage>
+[2026-02-07T19:19:46.549Z] Instance metadata: {"agent_type":"Explore"}
+[2026-02-07T19:19:46.550Z] No specific completion message found in Task output
+[2026-02-07T19:19:46.550Z] Full task output for debugging: Excellent! I now have a comprehensive understanding of the repository. Let me provide you with a detailed report:
+
+---
+
+## Repository Exploration Report: az-demo
+
+### 1. OVERALL PROJECT STRUCTURE
+
+The repository is located at `/Users/mikepica/Personal_Projects/az-demo` and implements a **multi-role AI system using PAI v2.5** (Personal AI Infrastructure) with role-switching capabilities for an AstraZeneca (AZ) drug discovery workflow.
+
+**Key Root Directories:**
+- `.claude/` - The shared PAI v2.5 installation
+- `roles/` - Three role configurations that get swapped in/out
+- `shared/` - Cross-role coordination artifacts
+- `Learning-Plans/` - Documentation and walkthroughs
+- `switch-role.sh` - Shell script for role switching
+
+---
+
+### 2. TELOS FILES (Life Operating System)
+
+**Location:** `/Users/mikepica/Personal_Projects/az-demo/.claude/skills/Telos/`
+
+Telos is both a personal life OS and a project analysis framework. Key files:
+
+- **SKILL.md** - Complete documentation of Telos capabilities for personal and project context
+- **Tools/UpdateTelos.ts** - TypeScript tool for updating TELOS data
+
+**How it works in this repo:**
+- Role-specific TELOS files are stored in each role's `TELOS/` folder (see below)
+- When you run `./switch-role.sh`, it copies the selected role's TELOS files to `~/.claude/skills/PAI/USER/TELOS/`
+
+---
+
+### 3. THE THREE EXISTING ROLES
+
+Each role has identical structure with different content:
+
+#### **Role 1: Innovation Lead (Alex Rivera)**
+**Path:** `/Users/mikepica/Personal_Projects/az-demo/roles/innovation-lead/`
+
+**TELOS Files:**
+- **MISSION.md** - "I identify and champion AI-driven R&D projects that accelerate drug discovery. I bridge the gap between what's scientifically possible and what's organizationally achievable."
+- **BELIEFS.md** - Core beliefs about innovation
+- **CHALLENGES.md** - Current obstacles
+- **GOALS.md** - Strategic objectives
+- **PROJECTS.md** - Active initiatives
+- **STRATEGIES.md** - Approaches being employed
+- **MODELS.md** - Mental models used for decision-making
+- **NARRATIVES.md** - Personal narratives
+- **IDEAS.md** - Innovation ideas
+- **LEARNED.md** - Lessons learned
+
+**Customizations:**
+- `CUSTOMIZATIONS/Council/PREFERENCES.md` - Custom perspectives (Scientific Merit, Feasibility, Risk)
+- `CUSTOMIZATIONS/THEALGORITHM/PREFERENCES.md` - Algorithm behavior preferences
+
+---
+
+#### **Role 2: R&D Scientist (Dr. Sarah Okonkwo)**
+**Path:** `/Users/mikepica/Personal_Projects/az-demo/roles/rd-scientist/`
+
+**TELOS Files:** Same structure as above
+
+**MISSION.md:** "I design and run experiments that validate drug candidates. My lab generates the ground truth that every downstream decision depends on."
+
+**Key Difference:** Uses **FirstPrinciples** as primary thinking tool (not Council), emphasizing skepticism of AI and reproducibility concerns.
+
+---
+
+#### **Role 3: Data Scientist (Priya Mehta)**
+**Path:** `/Users/mikepica/Personal_Projects/az-demo/roles/data-scientist/`
+
+**TELOS Files:** Same structure as above
+
+**MISSION.md:** "I build ML models that extract value from AZ's experimental and clinical data. I make the invisible patterns visible."
+
+**Models include:** 70/20/10 Rule, Modality Transfer Gap
+
+---
+
+### 4. EXISTING SKILLS AND PAI SKILL DEFINITIONS
+
+**Primary PAI Core Skill:**
+- **`/Users/mikepica/Personal_Projects/az-demo/.claude/skills/PAI/SKILL.md`** - The authoritative reference for how PAI works, including the Algorithm (v0.2.24) with 7 phases: OBSERVE, THINK, PLAN, BUILD, EXECUTE, VERIFY, LEARN
+
+**Available Skills** (33 total):
+- **IdeaPipeline** - Innovation Lead's evaluation workflows
+- **ConstraintArticulator** - Team member constraint response workflows
+- **THEALGORITHM** - Core execution engine with ISC (Ideal State Criteria)
+- **Council** - Multi-perspective debate tool
+- **FirstPrinciples** - Deconstruct/Challenge/Reconstruct analysis
+- **BeCreative** - Extended thinking for creative divergence
+- **RedTeam** - Adversarial analysis
+- **Research** skills (ClaudeResearcher, GeminiResearcher, GrokResearcher, CodexResearcher)
+- **Documents** (PDF, Excel, Word, PowerPoint)
+- **Browser**, **Art**, **OSINT**, **Fabric**, **Apify**, and many others
+
+**System Skills:**
+- **`PAI/SYSTEM/SKILLSYSTEM.md`** - How skills work and are structured
+- **`PAI/SYSTEM/AISTEERINGRULES.md`** - Universal behavioral rules
+- **`PAI/USER/AISTEERINGRULES.md`** - Personal customizations
+
+---
+
+### 5. AGENT DEFINITIONS
+
+**Path:** `/Users/mikepica/Personal_Projects/az-demo/.claude/agents/`
+
+10 agent types defined as markdown files:
+
+1. **Algorithm.md** - "The Verification Purist" (Vera Sterling) - ISC expert
+2. **Architect.md** - System design specialist
+3. **Artist.md** - Creative generation expert
+4. **CodexResearcher.md** - Web research agent
+5. **Designer.md** - UX/UI design
+6. **GeminiResearcher.md** - Google research integration
+7. **GrokResearcher.md** - Grok research integration
+8. **Intern.md** - Junior assistant
+9. **Pentester.md** - Security testing
+10. **QATester.md** - Quality assurance
+
+Each agent has:
+- A persona with background and communication style
+- Specific permissions (which tools it can access)
+- Voice configuration for notifications
+- Expertise areas
+
+---
+
+### 6. MEMORY AND LEARNING SYSTEM
+
+**Path:** `/Users/mikepica/Personal_Projects/az-demo/.claude/MEMORY/`
+
+Hierarchical structure for capturing learning:
+
+- **WORK/** - Session-level tracking (ISC criteria + task progress)
+- **LEARNING/** 
+  - `ALGORITHM/` - Task execution learnings
+  - `SYSTEM/` - Infrastructure/tooling learnings
+  - `SIGNALS/` - User satisfaction ratings (JSONL)
+  - `SYNTHESIS/` - Pattern analysis reports
+  - `FAILURES/` - Full context dumps for low ratings (1-3)
+  - `CONSTRAINTS/` - Constraint learnings
+  - `IDEA_EVALUATION/` - Idea evaluation learnings
+- **RESEARCH/** - Captured agent outputs
+- **STATE/** - Ephemeral runtime data (caches, current-work.json)
+
+---
+
+### 7. SHARED ARTIFACTS (CROSS-ROLE COORDINATION)
+
+**Path:** `/Users/mikepica/Personal_Projects/az-demo/shared/`
+
+Enables coordination across roles:
+
+**Current artifacts for "clinical-trial-predictor" idea:**
+- `questions/clinical-trial-predictor/`
+  - `rd-scientist.md` - Questions for R&D scientist
+  - `data-scientist.md` - Questions for data scientist
+- `responses/clinical-trial-predictor/`
+  - `data-scientist-response.md` - Pre-populated response from data scientist
+- `ideas/` - Shared innovation ideas
+- `responses/` - Cross-role responses
+- `questions/` - Questions sent between roles
+
+**Purpose:** Enables async collaboration where one role generates questions, other roles respond, and Innovation Lead synthesizes cross-functional input.
+
+---
+
+### 8. DOCUMENTATION AND LEARNING GUIDES
+
+**Path:** `/Users/mikepica/Personal_Projects/az-demo/Learning-Plans/`
+
+- **overview.md** (14.4 KB) - Complete 60-90 minute walkthrough with 6 acts:
+  - Act 1: Orientation
+  - Act 2: Play Innovation Lead
+  - Act 3: Play R&D Scientist
+  - Act 4: Play Data Scientist
+  - Act 5: Cross-role synthesis
+  - Act 6: Inspect the machinery
+
+- **memory.md** (17.4 KB) - 45-60 minute guide to the memory system:
+  - How hooks capture data
+  - LEARN phase feedback loop
+  - Querying past learnings
+  - Ratings and failure capture
+  - Memory system testing checklist
+
+---
+
+### 9. CONFIGURATION
+
+**Main Settings File:** `/Users/mikepica/Personal_Projects/az-demo/.claude/settings.json`
+
+Key configuration:
+- **PAI version:** 2.5
+- **Environment:**
+  - `PAI_DIR` = `/Users/mikepica/Personal_Projects/az-demo/.claude`
+  - `SHARED_DIR` = `/Users/mikepica/Personal_Projects/az-demo/shared`
+- **Context files loaded at startup:**
+  - `skills/PAI/SKILL.md` - Core Algorithm
+  - `skills/PAI/SYSTEM/AISTEERINGRULES.md` - System rules
+  - `skills/PAI/USER/AISTEERINGRULES.md` - Personal rules
+  - `skills/PAI/USER/DAIDENTITY.md` - AI identity
+  - `skills/IdeaPipeline/SKILL.md` - Innovation workflows
+  - `skills/ConstraintArticulator/SKILL.md` - Constraint workflows
+- **DA Identity:** PAI (voice ID configured for notifications)
+- **Hooks:** Multiple lifecycle triggers for format detection, auto-work creation, ratings capture
+
+---
+
+### 10. KEY FILE PATHS SUMMARY
+
+| Purpose | Path |
+|---------|------|
+| **Role Switch Script** | `/Users/mikepica/Personal_Projects/az-demo/switch-role.sh` |
+| **PAI Core SKILL** | `/Users/mikepica/Personal_Projects/az-demo/.claude/skills/PAI/SKILL.md` |
+| **Telos Skill** | `/Users/mikepica/Personal_Projects/az-demo/.claude/skills/Telos/SKILL.md` |
+| **Innovation Lead TELOS** | `/Users/mikepica/Personal_Projects/az-demo/roles/innovation-lead/TELOS/` |
+| **R&D Scientist TELOS** | `/Users/mikepica/Personal_Projects/az-demo/roles/rd-scientist/TELOS/` |
+| **Data Scientist TELOS** | `/Users/mikepica/Personal_Projects/az-demo/roles/data-scientist/TELOS/` |
+| **Agent Definitions** | `/Users/mikepica/Personal_Projects/az-demo/.claude/agents/*.md` |
+| **Shared Artifacts** | `/Users/mikepica/Personal_Projects/az-demo/shared/` |
+| **Memory System** | `/Users/mikepica/Personal_Projects/az-demo/.claude/MEMORY/` |
+| **Learning Guides** | `/Users/mikepica/Personal_Projects/az-demo/Learning-Plans/` |
+| **Settings** | `/Users/mikepica/Personal_Projects/az-demo/.claude/settings.json` |
+
+---
+
+### PROJECT PURPOSE
+
+This is a **fully functional multi-role AI collaboration demo** for AstraZeneca drug discovery. It demonstrates:
+
+1. **Role-based AI personas** with distinct missions, beliefs, and mental models
+2. **The PAI Algorithm** - a structured problem-solving methodology with ISC (Ideal State Criteria) tracking
+3. **Cross-role question-answer workflows** for collaborative innovation evaluation
+4. **Memory and learning capture** from every interaction
+5. **Skill customization per role** (Council vs FirstPrinciples preferences)
+6. **Voice notifications** for progress tracking
+
+The system enables async collaboration where an Innovation Lead can pose questions to scientists, collect constrained responses, and synthesize recommendations in a structured, learning-capturing system.
+agentId: a609c80 (for resuming to continue this agent's work if needed)
+<usage>total_tokens: 59213
+tool_uses: 22
+duration_ms: 46991</usage>

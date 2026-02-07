@@ -114,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Learning-Plans/overview.md",
+                "file": "Learning-Plans/memory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for overview"
+              "title": "Backlinks for memory"
             }
           },
           {
@@ -133,12 +133,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Learning-Plans/overview.md",
+                "file": "Learning-Plans/memory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from overview"
+              "title": "Outgoing links from memory"
             }
           },
           {
@@ -176,13 +176,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Learning-Plans/overview.md",
+                "file": "Learning-Plans/memory.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of overview"
+              "title": "Outline of memory"
             }
           }
         ]
@@ -203,11 +203,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "bd429152e9ecb356",
+  "active": "a420c4adac1f32dc",
   "lastOpenFiles": [
+    "Learning-Plans/overview.md",
     "Learning-Plans/memory.md",
     "roles/innovation-lead/TELOS/STRATEGIES.md",
-    "Learning-Plans/overview.md",
     "roles/innovation-lead/TELOS/PROJECTS.md",
     "roles/innovation-lead/TELOS/NARRATIVES.md",
     "roles/innovation-lead/TELOS/MISSION.md",
