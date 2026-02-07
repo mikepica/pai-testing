@@ -11,6 +11,7 @@
  *   bun TranscriptParser.ts <transcript_path> --plain
  *   bun TranscriptParser.ts <transcript_path> --structured
  *   bun TranscriptParser.ts <transcript_path> --state
+ *   bun TranscriptParser.ts <transcript_path> --learn
  *
  * Module Usage:
  *   import { parseTranscript, getLastAssistantMessage } from './TranscriptParser'
@@ -36,6 +37,19 @@ export interface StructuredResponse {
   completed?: string;
 }
 
+export interface LearnPhaseContent {
+  /** 1-2 sentence description of what this task accomplished */
+  summary: string;
+  /** What approach/decision succeeded and why */
+  whatWorked: string;
+  /** What failed or was suboptimal, or "Nothing" */
+  whatFailed: string;
+  /** Reusable lesson — what to do differently, stated as a principle */
+  insight: string;
+  /** ALGORITHM or SYSTEM */
+  category: string;
+}
+
 export type ResponseState = 'awaitingInput' | 'completed' | 'error';
 
 export interface ParsedTranscript {
@@ -51,6 +65,8 @@ export interface ParsedTranscript {
   structured: StructuredResponse;
   /** Response state for tab coloring */
   responseState: ResponseState;
+  /** Structured LEARN phase content from Algorithm FULL responses */
+  learnPhase: LearnPhaseContent | null;
 }
 
 // ============================================================================
@@ -225,6 +241,47 @@ export function extractStructuredSections(text: string): StructuredResponse {
   return result;
 }
 
+/**
+ * Extract structured LEARN phase content from Algorithm FULL responses.
+ * Looks for the LEARN phase marker and parses LEARN_ prefixed fields.
+ * Returns null if no LEARN phase or no structured fields found.
+ */
+export function extractLearnPhase(text: string): LearnPhaseContent | null {
+  // Find LEARN phase marker — handles both "━━━ 📚 LEARN ━━━" and "━━━ LEARN ━━━"
+  const learnMarkerIdx = text.search(/━━━\s*📚?\s*LEARN\s*━━━/);
+  if (learnMarkerIdx === -1) return null;
+
+  // Scope to text after the LEARN marker
+  const learnSection = text.slice(learnMarkerIdx);
+
+  const fields: Record<string, string> = {};
+  const fieldPatterns: Record<string, RegExp> = {
+    summary: /LEARN_SUMMARY:\s*(.+?)(?:\n|$)/i,
+    whatWorked: /LEARN_WHAT_WORKED:\s*(.+?)(?:\n|$)/i,
+    whatFailed: /LEARN_WHAT_FAILED:\s*(.+?)(?:\n|$)/i,
+    insight: /LEARN_INSIGHT:\s*(.+?)(?:\n|$)/i,
+    category: /LEARN_CATEGORY:\s*(.+?)(?:\n|$)/i,
+  };
+
+  for (const [key, pattern] of Object.entries(fieldPatterns)) {
+    const match = learnSection.match(pattern);
+    if (match && match[1]) {
+      fields[key] = match[1].trim();
+    }
+  }
+
+  // Require at least summary and insight to consider it a valid LEARN phase
+  if (!fields.summary || !fields.insight) return null;
+
+  return {
+    summary: fields.summary,
+    whatWorked: fields.whatWorked || 'Not specified',
+    whatFailed: fields.whatFailed || 'Nothing',
+    insight: fields.insight,
+    category: fields.category || 'ALGORITHM',
+  };
+}
+
 // ============================================================================
 // State Detection
 // ============================================================================
@@ -296,6 +353,7 @@ export function parseTranscript(transcriptPath: string): ParsedTranscript {
       plainCompletion: extractCompletionPlain(lastMessage),
       structured: extractStructuredSections(lastMessage),
       responseState: detectResponseState(lastMessage, raw),
+      learnPhase: extractLearnPhase(lastMessage),
     };
   } catch (error) {
     console.error('[TranscriptParser] Error parsing transcript:', error);
@@ -306,6 +364,7 @@ export function parseTranscript(transcriptPath: string): ParsedTranscript {
       plainCompletion: 'Completing task',  // Must be valid gerund for tab title
       structured: {},
       responseState: 'completed',
+      learnPhase: null,
     };
   }
 }
@@ -326,6 +385,7 @@ Options:
   --plain       Output plain completion (for tab titles)
   --structured  Output structured sections as JSON
   --state       Output response state
+  --learn       Output LEARN phase content as JSON (null if not found)
   --all         Output full parsed transcript as JSON (default)
 `);
     process.exit(1);
@@ -341,6 +401,8 @@ Options:
     console.log(JSON.stringify(parsed.structured, null, 2));
   } else if (args.includes('--state')) {
     console.log(parsed.responseState);
+  } else if (args.includes('--learn')) {
+    console.log(JSON.stringify(parsed.learnPhase, null, 2));
   } else {
     // Default: output everything
     console.log(JSON.stringify(parsed, null, 2));

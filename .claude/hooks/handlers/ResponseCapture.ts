@@ -20,7 +20,7 @@ import { sendEventToObservability, getCurrentTimestamp, getSourceApp } from '../
 import { notifyTaskComplete, notifyError, getSessionDurationMinutes } from '../lib/notifications';
 import { getLearningCategory, isLearningCapture } from '../lib/learning-utils';
 import { getPSTTimestamp, getPSTDate, getYearMonth, getISOTimestamp } from '../lib/time';
-import type { ParsedTranscript, StructuredResponse } from '../../skills/PAI/Tools/TranscriptParser';
+import type { ParsedTranscript, StructuredResponse, LearnPhaseContent } from '../../skills/PAI/Tools/TranscriptParser';
 
 const BASE_DIR = getPaiDir();
 const WORK_DIR = join(BASE_DIR, 'MEMORY', 'WORK');
@@ -248,6 +248,54 @@ ${fullText.replace(/<system-reminder>[\s\S]*?<\/system-reminder>/g, '')}
 `;
 }
 
+/**
+ * Generate learning file content from Algorithm LEARN phase structured output.
+ * Produces populated files instead of N/A templates.
+ */
+function generateAlgorithmLearningContent(learn: LearnPhaseContent, fullText: string, timestamp: string): string {
+  return `---
+capture_type: LEARNING
+timestamp: ${timestamp}
+auto_captured: true
+source: algorithm_learn_phase
+tags: [auto-capture, algorithm]
+---
+
+# Learning: ${learn.summary}
+
+**Date:** ${getPSTDate()}
+**Category:** ${learn.category}
+**Auto-captured:** Yes (from Algorithm LEARN phase)
+
+---
+
+## Summary
+
+${learn.summary}
+
+## What Worked
+
+${learn.whatWorked}
+
+## What Failed
+
+${learn.whatFailed}
+
+## Key Insight
+
+${learn.insight}
+
+---
+
+<details>
+<summary>Full Response</summary>
+
+${fullText.replace(/<system-reminder>[\s\S]*?<\/system-reminder>/g, '')}
+
+</details>
+`;
+}
+
 // ============================================================================
 // Main Capture Logic
 // ============================================================================
@@ -261,7 +309,7 @@ function readCurrentWork(): CurrentWork | null {
   }
 }
 
-async function captureWorkSummary(text: string, structured: StructuredResponse): Promise<void> {
+async function captureWorkSummary(text: string, structured: StructuredResponse, learnPhase: LearnPhaseContent | null): Promise<void> {
   try {
     const currentWork = readCurrentWork();
 
@@ -275,7 +323,33 @@ async function captureWorkSummary(text: string, structured: StructuredResponse):
       }
     }
 
-    // Learning capture (unchanged)
+    // Primary path: Algorithm LEARN phase with structured content
+    if (learnPhase) {
+      const description = learnPhase.summary
+        .replace(/[^a-z0-9\s-]/gi, '')
+        .replace(/\s+/g, '-')
+        .slice(0, 60)
+        .toLowerCase() || 'algorithm-learning';
+
+      const yearMonth = getYearMonth();
+      const filename = generateFilename(description, 'LEARNING');
+      const category = (learnPhase.category === 'SYSTEM' ? 'SYSTEM' : 'ALGORITHM') as 'SYSTEM' | 'ALGORITHM';
+      const targetDir = join(BASE_DIR, 'MEMORY', 'LEARNING', category, yearMonth);
+
+      if (!existsSync(targetDir)) {
+        mkdirSync(targetDir, { recursive: true });
+      }
+
+      const filePath = join(targetDir, filename);
+      const timestamp = getPSTTimestamp();
+      const content = generateAlgorithmLearningContent(learnPhase, text, timestamp);
+
+      writeFileSync(filePath, content, 'utf-8');
+      console.log(`✅ Captured Algorithm learning to: ${filePath}`);
+      return;
+    }
+
+    // Fallback path: heuristic-based learning capture for non-Algorithm responses
     const isLearning = isLearningCapture(text, structured.summary, structured.analysis);
 
     if (isLearning) {
@@ -319,11 +393,11 @@ async function captureWorkSummary(text: string, structured: StructuredResponse):
  * Handle response capture with pre-parsed transcript data.
  */
 export async function handleCapture(parsed: ParsedTranscript, hookInput: HookInput): Promise<void> {
-  const { lastMessage, structured, plainCompletion } = parsed;
+  const { lastMessage, structured, plainCompletion, learnPhase } = parsed;
 
   // Capture work summary (async, non-blocking)
   if (lastMessage) {
-    captureWorkSummary(lastMessage, structured).catch(err => {
+    captureWorkSummary(lastMessage, structured, learnPhase).catch(err => {
       console.error('[Capture] History capture failed (non-critical):', err);
     });
   }

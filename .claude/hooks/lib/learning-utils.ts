@@ -56,7 +56,12 @@ export function getLearningCategory(content: string, comment?: string): 'SYSTEM'
 }
 
 /**
- * Determine if a response represents a learning moment
+ * Determine if a response represents a learning moment.
+ *
+ * This is the FALLBACK heuristic for non-Algorithm responses (MINIMAL mode,
+ * responses without a structured LEARN phase). Algorithm FULL responses use
+ * the LEARN phase directly via extractLearnPhase() in TranscriptParser.ts —
+ * that path takes priority in ResponseCapture.ts.
  */
 export function isLearningCapture(text: string, summary?: string, analysis?: string): boolean {
   const learningIndicators = [

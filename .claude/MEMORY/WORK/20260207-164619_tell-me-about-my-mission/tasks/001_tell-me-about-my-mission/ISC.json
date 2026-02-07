@@ -1,0 +1,10 @@
+{
+  "taskId": "001_tell-me-about-my-mission",
+  "status": "PENDING",
+  "effortLevel": "QUICK",
+  "criteria": [],
+  "antiCriteria": [],
+  "satisfaction": null,
+  "createdAt": "2026-02-07T16:46:19+00:00",
+  "updatedAt": "2026-02-07T16:46:19+00:00"
+}

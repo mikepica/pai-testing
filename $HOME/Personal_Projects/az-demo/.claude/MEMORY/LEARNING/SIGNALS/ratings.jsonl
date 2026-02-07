@@ -1,8 +1,0 @@
-{"timestamp":"2026-02-07T16:02:50+00:00","rating":5,"session_id":"2e683b43-74ea-4898-9566-e95244c88426","source":"implicit","sentiment_summary":"Reflective question, no sentiment toward PAI","confidence":0.95}
-{"timestamp":"2026-02-07T16:07:15+00:00","rating":5,"session_id":"2e683b43-74ea-4898-9566-e95244c88426","source":"implicit","sentiment_summary":"Direct question about purpose/mission","confidence":0.95}
-{"timestamp":"2026-02-07T16:20:51+00:00","rating":5,"session_id":"f3ec8f3c-4eb4-4e86-bc78-655421610cab","source":"implicit","sentiment_summary":"Technical question about ISC workflow optimization","confidence":0.9}
-{"timestamp":"2026-02-07T16:23:35+00:00","rating":5,"session_id":"8dffbc85-1a10-4c3f-a7f1-ac98578427fd","source":"implicit","sentiment_summary":"Technical exploration, no PAI performance evaluation","confidence":0.95}
-{"timestamp":"2026-02-07T16:25:37+00:00","rating":5,"session_id":"f3ec8f3c-4eb4-4e86-bc78-655421610cab","source":"implicit","sentiment_summary":"Technical question about file location, no sentiment toward PAI","confidence":0.85}
-{"timestamp":"2026-02-07T16:27:36+00:00","rating":5,"session_id":"4b292c03-bdd7-45c9-aab9-6c96024a5b9b","source":"implicit","sentiment_summary":"Technical question about workflow optimization","confidence":0.95}
-{"timestamp":"2026-02-07T16:34:35+00:00","rating":5,"session_id":"07df9194-d96f-45ec-99c2-f6ac7b1baade","source":"implicit","sentiment_summary":"Strategic question about system improvement, no emotional valence","confidence":0.85}
-{"timestamp":"2026-02-07T16:42:14+00:00","rating":5,"session_id":"cdd13036-36f9-46f0-9f5e-74f1bd3e8845","source":"implicit","sentiment_summary":"Direct request for technical help, no emotional content","confidence":0.95}
