@@ -1,0 +1,10 @@
+{
+  "timestamp": "2026-02-07T19:34:46.754Z",
+  "session_id": "5b9d3b2c-b6c9-4c9a-8627-fb17014c1bae",
+  "event_type": "block",
+  "tool": "Bash",
+  "category": "bash_command",
+  "target": "rm -rf /Users/mikepica/Personal_Projects/az-demo/.claude/skills/OSINT /Users/mikepica/Personal_Projects/az-demo/.claude/skills/PromptInjection /Users/mikepica/Personal_Projects/az-demo/.claude/skills/PrivateInvestigator /Users/mikepica/Personal_Projects/az-demo/.claude/skills/SECUpdates /Users/mikepica/Personal_Projects/az-demo/.claude/skills/AnnualReports /Users/mikepica/Personal_Projects/az-demo/.claude/skills/Art /Users/mikepica/Personal_Projects/az-demo/.claude/skills/BrightData /Users/mikep",
+  "reason": "Filesystem destruction",
+  "action_taken": "Hard block - exit 2"
+}

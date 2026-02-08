@@ -1,0 +1,572 @@
+[
+  {
+    "name": "AskUserQuestion",
+    "input": {
+      "questions": [
+        {
+          "question": "What is your current role and level in the enterprise?",
+          "header": "Current Role",
+          "options": [
+            {
+              "label": "Individual Contributor (Engineer/Analyst)",
+              "description": "Hands-on technical work, no direct reports"
+            },
+            {
+              "label": "Senior IC / Tech Lead",
+              "description": "Technical leadership, may guide others but not a people manager"
+            },
+            {
+              "label": "Manager / Director",
+              "description": "People management with technical oversight"
+            },
+            {
+              "label": "Architect / Principal",
+              "description": "Enterprise-level technical strategy and design"
+            }
+          ],
+          "multiSelect": false
+        },
+        {
+          "question": "What is your primary technical background today?",
+          "header": "Tech Background",
+          "options": [
+            {
+              "label": "Software Engineering",
+              "description": "Building applications, APIs, full-stack development"
+            },
+            {
+              "label": "Data / Analytics",
+              "description": "Data engineering, BI, analytics, some ML"
+            },
+            {
+              "label": "Infrastructure / Cloud",
+              "description": "DevOps, cloud architecture, platform engineering"
+            },
+            {
+              "label": "Product / Strategy",
+              "description": "Product management, business analysis, strategy"
+            }
+          ],
+          "multiSelect": true
+        },
+        {
+          "question": "What industry is your enterprise in?",
+          "header": "Industry",
+          "options": [
+            {
+              "label": "Financial Services",
+              "description": "Banking, insurance, fintech"
+            },
+            {
+              "label": "Healthcare / Pharma",
+              "description": "Health systems, life sciences, biotech"
+            },
+            {
+              "label": "Technology / SaaS",
+              "description": "Software company, tech platform"
+            },
+            {
+              "label": "Other regulated industry",
+              "description": "Government, energy, telecom, etc."
+            }
+          ],
+          "multiSelect": false
+        },
+        {
+          "question": "What's your current AI/ML experience level?",
+          "header": "AI Experience",
+          "options": [
+            {
+              "label": "AI-curious",
+              "description": "Used ChatGPT/Copilot, no hands-on building yet"
+            },
+            {
+              "label": "Hobbyist / Self-taught",
+              "description": "Built personal projects, taken courses, experimented with APIs"
+            },
+            {
+              "label": "Professional basics",
+              "description": "Deployed at least one AI/ML solution at work"
+            },
+            {
+              "label": "Experienced practitioner",
+              "description": "Multiple production AI/ML projects, comfortable with the full lifecycle"
+            }
+          ],
+          "multiSelect": false
+        }
+      ]
+    },
+    "timestamp": "2026-02-08T13:18:48.708Z"
+  },
+  {
+    "name": "AskUserQuestion",
+    "input": {
+      "questions": [
+        {
+          "question": "What kind of AI projects excite you most for enterprise adoption?",
+          "header": "Project Types",
+          "options": [
+            {
+              "label": "Process automation (Agentic AI)",
+              "description": "AI agents that automate workflows, approvals, document processing"
+            },
+            {
+              "label": "Knowledge / RAG systems",
+              "description": "Enterprise search, knowledge bases, document Q&A for internal teams"
+            },
+            {
+              "label": "Decision support / Analytics",
+              "description": "AI-powered insights, forecasting, clinical or business decision aids"
+            },
+            {
+              "label": "Customer/Patient-facing AI",
+              "description": "Chatbots, virtual assistants, patient engagement tools"
+            }
+          ],
+          "multiSelect": true
+        },
+        {
+          "question": "What's your target role in 12-18 months?",
+          "header": "Target Role",
+          "options": [
+            {
+              "label": "AI Product Manager",
+              "description": "Own AI product roadmap, work with engineering to deliver"
+            },
+            {
+              "label": "AI Solutions Architect",
+              "description": "Design AI solutions, evaluate vendors, create reference architectures"
+            },
+            {
+              "label": "Innovation Lead / AI Strategist",
+              "description": "Identify AI opportunities, build POCs, pitch to leadership for investment"
+            },
+            {
+              "label": "Technical Program Manager (AI)",
+              "description": "Coordinate cross-functional AI initiatives, manage from idea to handoff"
+            }
+          ],
+          "multiSelect": false
+        },
+        {
+          "question": "What's your biggest gap or concern about making this transition?",
+          "header": "Biggest Gap",
+          "options": [
+            {
+              "label": "Technical depth in AI/ML",
+              "description": "Need stronger hands-on skills to build credible prototypes"
+            },
+            {
+              "label": "Enterprise stakeholder buy-in",
+              "description": "Know the tech but struggle to get leadership/budget alignment"
+            },
+            {
+              "label": "Visibility / internal network",
+              "description": "People don't know I exist or what I can do"
+            },
+            {
+              "label": "Lack of a portfolio",
+              "description": "No concrete AI projects to point to as proof of capability"
+            }
+          ],
+          "multiSelect": true
+        },
+        {
+          "question": "Does your enterprise have an existing AI/innovation team or center of excellence?",
+          "header": "AI Team Exists?",
+          "options": [
+            {
+              "label": "Yes, formal AI/ML team",
+              "description": "Dedicated team with budget, headcount, and roadmap"
+            },
+            {
+              "label": "Informal / grassroots",
+              "description": "A few people experimenting but no formal structure"
+            },
+            {
+              "label": "No, I'd be pioneering this",
+              "description": "No existing AI initiative — I'd be creating the path"
+            },
+            {
+              "label": "Not sure",
+              "description": "There might be one but I'm not connected to it"
+            }
+          ],
+          "multiSelect": false
+        }
+      ]
+    },
+    "timestamp": "2026-02-08T13:19:43.144Z"
+  },
+  {
+    "name": "AskUserQuestion",
+    "input": {
+      "questions": [
+        {
+          "question": "How technical do you want your prototype work to be? This shapes the skill profile significantly.",
+          "header": "Prototype Depth",
+          "options": [
+            {
+              "label": "No-code / low-code demos",
+              "description": "Use tools like Copilot Studio, Vertex AI Agent Builder, or similar to build demos without writing much code"
+            },
+            {
+              "label": "Code-assisted prototypes",
+              "description": "Use AI coding tools (Copilot, Claude) to build functional prototypes — I write some code but lean on AI"
+            },
+            {
+              "label": "Hands-on coding",
+              "description": "I want to write Python, use LangChain/LangGraph, call APIs directly — build real POCs myself"
+            },
+            {
+              "label": "Mix — depends on the project",
+              "description": "Low-code for quick demos, hands-on for more complex POCs"
+            }
+          ],
+          "multiSelect": false
+        },
+        {
+          "question": "How many years of total professional experience do you have?",
+          "header": "Experience",
+          "options": [
+            {
+              "label": "3-5 years",
+              "description": "Early career, building foundation"
+            },
+            {
+              "label": "6-10 years",
+              "description": "Mid-career, established track record"
+            },
+            {
+              "label": "11-15 years",
+              "description": "Senior professional, deep domain expertise"
+            },
+            {
+              "label": "15+ years",
+              "description": "Veteran, significant leadership and domain depth"
+            }
+          ],
+          "multiSelect": false
+        }
+      ]
+    },
+    "timestamp": "2026-02-08T13:23:31.079Z"
+  },
+  {
+    "name": "TaskCreate",
+    "input": {
+      "subject": "Target role identified with rationale for fit",
+      "description": "A specific target role (12-18 months) is selected from the options, with clear reasoning tied to the user's background, interests, and enterprise context",
+      "activeForm": "Identifying target role"
+    },
+    "timestamp": "2026-02-08T13:24:23.348Z"
+  },
+  {
+    "name": "TaskCreate",
+    "input": {
+      "subject": "Skills gap analysis with development priorities defined",
+      "description": "Technical, strategic, and domain skills mapped against current state and target role. Gaps identified and prioritized into tiers (critical, important, nice-to-have)",
+      "activeForm": "Analyzing skills gaps"
+    },
+    "timestamp": "2026-02-08T13:24:27.634Z"
+  },
+  {
+    "name": "TaskCreate",
+    "input": {
+      "subject": "Career progression ladder mapped from current to target",
+      "description": "Clear progression path showing current IC → target role → future growth, with what unlocks at each level in enterprise healthcare/pharma",
+      "activeForm": "Mapping career progression"
+    },
+    "timestamp": "2026-02-08T13:24:31.265Z"
+  },
+  {
+    "name": "TaskCreate",
+    "input": {
+      "subject": "Profile updated with skills and project interests",
+      "description": "Talent profile TELOS files updated with: target skills to develop, project types of interest, and positioning for internal discovery by enterprise collaborators",
+      "activeForm": "Updating talent profile"
+    },
+    "timestamp": "2026-02-08T13:24:34.961Z"
+  },
+  {
+    "name": "TaskCreate",
+    "input": {
+      "subject": "Stakeholder buy-in strategy addresses biggest gap",
+      "description": "Concrete approach for building enterprise credibility and getting leadership alignment on AI projects — the user's self-identified biggest gap",
+      "activeForm": "Building stakeholder strategy"
+    },
+    "timestamp": "2026-02-08T13:24:38.817Z"
+  },
+  {
+    "name": "TaskList",
+    "input": {},
+    "timestamp": "2026-02-08T13:24:40.987Z"
+  },
+  {
+    "name": "TaskUpdate",
+    "input": {
+      "taskId": "1",
+      "status": "in_progress"
+    },
+    "timestamp": "2026-02-08T13:24:46.379Z"
+  },
+  {
+    "name": "TaskUpdate",
+    "input": {
+      "taskId": "1",
+      "status": "completed"
+    },
+    "timestamp": "2026-02-08T13:24:56.061Z"
+  },
+  {
+    "name": "TaskUpdate",
+    "input": {
+      "taskId": "2",
+      "status": "in_progress"
+    },
+    "timestamp": "2026-02-08T13:24:58.705Z"
+  },
+  {
+    "name": "TaskUpdate",
+    "input": {
+      "taskId": "2",
+      "status": "completed"
+    },
+    "timestamp": "2026-02-08T13:25:16.115Z"
+  },
+  {
+    "name": "TaskUpdate",
+    "input": {
+      "taskId": "3",
+      "status": "in_progress"
+    },
+    "timestamp": "2026-02-08T13:25:18.475Z"
+  },
+  {
+    "name": "TaskUpdate",
+    "input": {
+      "taskId": "3",
+      "status": "completed"
+    },
+    "timestamp": "2026-02-08T13:25:32.093Z"
+  },
+  {
+    "name": "TaskUpdate",
+    "input": {
+      "taskId": "5",
+      "status": "in_progress"
+    },
+    "timestamp": "2026-02-08T13:25:34.780Z"
+  },
+  {
+    "name": "TaskUpdate",
+    "input": {
+      "taskId": "5",
+      "status": "completed"
+    },
+    "timestamp": "2026-02-08T13:25:45.034Z"
+  },
+  {
+    "name": "TaskUpdate",
+    "input": {
+      "taskId": "4",
+      "status": "in_progress"
+    },
+    "timestamp": "2026-02-08T13:25:47.422Z"
+  },
+  {
+    "name": "AskUserQuestion",
+    "input": {
+      "questions": [
+        {
+          "question": "Does this role target and career plan feel right? I'll use it to update your talent profile.",
+          "header": "Plan Check",
+          "options": [
+            {
+              "label": "Yes, update my profile",
+              "description": "The AI Innovation Lead path, skills tiers, and career ladder all resonate — write it to my profile"
+            },
+            {
+              "label": "Mostly, but adjust the role title",
+              "description": "The plan is right but I want a different target role name or framing"
+            },
+            {
+              "label": "Need to rethink",
+              "description": "Something feels off — let's discuss before committing to the profile"
+            }
+          ],
+          "multiSelect": false
+        },
+        {
+          "question": "What name should your profile use? (This is how people will find you internally)",
+          "header": "Profile Name",
+          "options": [
+            {
+              "label": "Use my real first name",
+              "description": "I'll tell you my preferred name"
+            },
+            {
+              "label": "Keep it as 'User' for now",
+              "description": "Use the placeholder name, I'll update later"
+            }
+          ],
+          "multiSelect": false
+        }
+      ]
+    },
+    "timestamp": "2026-02-08T13:25:55.882Z"
+  },
+  {
+    "name": "AskUserQuestion",
+    "input": {
+      "questions": [
+        {
+          "question": "Does this reframed plan — focused on durable skills and the post-commoditization trajectory — feel right? I'll update your profile based on your answer.",
+          "header": "Revised Plan",
+          "options": [
+            {
+              "label": "Yes, this is it",
+              "description": "The 'what stays scarce' framing resonates. Update my profile with this direction."
+            },
+            {
+              "label": "Yes, but I want to adjust emphasis",
+              "description": "Mostly right, but I want to shift some priorities before you write it"
+            },
+            {
+              "label": "Too far out — focus on the 12-18 month horizon",
+              "description": "I appreciate the long view but need to focus on near-term moves first"
+            }
+          ],
+          "multiSelect": false
+        }
+      ]
+    },
+    "timestamp": "2026-02-08T13:32:41.139Z"
+  },
+  {
+    "name": "Task",
+    "input": {
+      "description": "Find TELOS profile files",
+      "prompt": "Search the codebase for any existing TELOS profile files. Look for:\n1. Any files named SKILLS.md, EXPERIENCE.md, INTERESTS.md, AVAILABILITY.md, CERTIFICATIONS.md, DOMAIN_EXPERTISE.md\n2. Any directory that looks like a TELOS directory (USER/TELOS or similar)\n3. Any existing profile JSON files\n\nSearch broadly using Glob patterns like **/*SKILLS*.md, **/*TELOS*/, **/*profile*. Report what you find with full paths.",
+      "subagent_type": "Explore",
+      "model": "haiku"
+    },
+    "timestamp": "2026-02-08T13:39:06.062Z"
+  },
+  {
+    "name": "Read",
+    "input": {
+      "file_path": "/Users/mikepica/Personal_Projects/az-demo/roles/innovation-lead/TELOS/SKILLS.md"
+    },
+    "timestamp": "2026-02-08T13:39:34.862Z"
+  },
+  {
+    "name": "Read",
+    "input": {
+      "file_path": "/Users/mikepica/Personal_Projects/az-demo/roles/innovation-lead/TELOS/INTERESTS.md"
+    },
+    "timestamp": "2026-02-08T13:39:38.044Z"
+  },
+  {
+    "name": "Read",
+    "input": {
+      "file_path": "/Users/mikepica/Personal_Projects/az-demo/roles/innovation-lead/TELOS/GOALS.md"
+    },
+    "timestamp": "2026-02-08T13:39:38.569Z"
+  },
+  {
+    "name": "Read",
+    "input": {
+      "file_path": "/Users/mikepica/Personal_Projects/az-demo/roles/innovation-lead/TELOS/STRATEGIES.md"
+    },
+    "timestamp": "2026-02-08T13:39:39.094Z"
+  },
+  {
+    "name": "Read",
+    "input": {
+      "file_path": "/Users/mikepica/Personal_Projects/az-demo/roles/innovation-lead/TELOS/MISSION.md"
+    },
+    "timestamp": "2026-02-08T13:39:39.426Z"
+  },
+  {
+    "name": "Read",
+    "input": {
+      "file_path": "/Users/mikepica/Personal_Projects/az-demo/roles/innovation-lead/TELOS/DOMAIN_EXPERTISE.md"
+    },
+    "timestamp": "2026-02-08T13:39:39.948Z"
+  },
+  {
+    "name": "Edit",
+    "input": {
+      "replace_all": false,
+      "file_path": "/Users/mikepica/Personal_Projects/az-demo/roles/innovation-lead/TELOS/SKILLS.md",
+      "old_string": "# Skills\n\n## Technical Skills\n\n| Skill | Proficiency | Years | Last Used |\n|-------|------------|-------|-----------|\n| AI/ML Strategy | Advanced | 5 | 2026-02 |\n| Project Portfolio Management | Expert | 8 | 2026-02 |\n| Cross-Functional Facilitation | Expert | 7 | 2026-02 |\n| Stakeholder Communication | Expert | 8 | 2026-02 |\n| Drug Discovery Workflow | Intermediate | 4 | 2026-02 |\n| Data Governance & Compliance | Intermediate | 3 | 2026-01 |\n\n## Domain Skills\n\n| Skill | Proficiency | Years | Last Used |\n|-------|------------|-------|-----------|\n| Pharmaceutical R&D Landscape | Advanced | 6 | 2026-02 |\n| Regulatory Awareness (FDA/EMA) | Intermediate | 4 | 2026-01 |\n| Clinical Trial Design (Concepts) | Foundational | 2 | 2025-12 |\n\n## Soft Skills\n- Translating between R&D scientists (biology language) and data scientists (ML language)\n- Seeing across domains to spot where AI solves real workflow pain points\n- Building cross-functional buy-in that gets projects from idea to pilot\n- Constraint-first evaluation — mapping blockers before investing effort",
+      "new_string": "# Skills\n\n## Technical Skills — Current\n\n| Skill | Proficiency | Years | Last Used |\n|-------|------------|-------|-----------|\n| AI/ML Strategy | Advanced | 5 | 2026-02 |\n| Project Portfolio Management | Expert | 8 | 2026-02 |\n| Cross-Functional Facilitation | Expert | 7 | 2026-02 |\n| Stakeholder Communication | Expert | 8 | 2026-02 |\n| Drug Discovery Workflow | Intermediate | 4 | 2026-02 |\n| Data Governance & Compliance | Intermediate | 3 | 2026-01 |\n| AI Business Case & ROI Modeling | Intermediate | 2 | 2026-02 |\n\n## Skills to Develop — Tier 1 (Critical, next 3 months)\n\n| Skill | Current | Target | Why Durable |\n|-------|---------|--------|-------------|\n| Prompt Engineering & LLM APIs | Foundational | Intermediate | Foundation for every prototype; builds intuition for what's feasible |\n| Agentic AI Frameworks (LangGraph/CrewAI) | Foundational | Intermediate | Top project interest; must demo credibly to earn investment |\n| AI Business Case Architecture | Intermediate | Advanced | Converts prototypes to funded programs; stakeholder buy-in weapon |\n| Healthcare AI Governance (NIST AI RMF, FDA) | Foundational | Intermediate | Regulatory judgment can't be automated; be the \"can we do this?\" person |\n\n## Skills to Develop — Tier 2 (Strategic, months 3-9)\n\n| Skill | Current | Target | Why Durable |\n|-------|---------|--------|-------------|\n| Organizational Change Management | Foundational | Intermediate | When everyone can prototype, the bottleneck is adoption |\n| Cross-Domain Pattern Recognition | Intermediate | Advanced | Translating what works in fintech/retail to pharma = unique value |\n| Enterprise Data Strategy | Foundational | Intermediate | Models commoditize, data doesn't; know where the enterprise gold is |\n| Vendor Evaluation & Build/Buy/Partner | Foundational | Intermediate | Enterprises buy more AI than they build; deciding when = massive leverage |\n| RAG Architecture Patterns | Foundational | Intermediate | Decision support systems need retrieval; core project interest |\n\n## Skills to Develop — Tier 3 (Executive trajectory, months 9-18)\n\n| Skill | Current | Target | Why Durable |\n|-------|---------|--------|-------------|\n| Board-Level AI Communication | None | Foundational | Translate AI implications into business risk/opportunity for non-technical leaders |\n| AI Portfolio Management | Foundational | Intermediate | Manage a portfolio of AI bets like a VC — fund/kill/pivot on evidence |\n| Enterprise Architecture Thinking | Foundational | Intermediate | How AI reshapes the entire operating model, not just individual solutions |\n| Industry Thought Leadership | None | Foundational | Publishing, speaking, external reputation — creates gravity and compounds |\n\n## Domain Skills\n\n| Skill | Proficiency | Years | Last Used |\n|-------|------------|-------|-----------|\n| Pharmaceutical R&D Landscape | Advanced | 6 | 2026-02 |\n| Regulatory Awareness (FDA/EMA) | Intermediate | 4 | 2026-01 |\n| Clinical Trial Design (Concepts) | Foundational | 2 | 2025-12 |\n| Healthcare Data Standards (FHIR/HL7) | Foundational | 0 | — |\n\n## Soft Skills\n- Translating between R&D scientists (biology language) and data scientists (ML language)\n- Seeing across domains to spot where AI solves real workflow pain points\n- Building cross-functional buy-in that gets projects from idea to pilot\n- Constraint-first evaluation — mapping blockers before investing effort\n- Executive storytelling — 3-minute pitch for every prototype, speaking in outcomes not technology\n- Trust-based influence — building the sponsor relationships that convert ideas into investments"
+    },
+    "timestamp": "2026-02-08T13:40:07.387Z"
+  },
+  {
+    "name": "Edit",
+    "input": {
+      "replace_all": false,
+      "file_path": "/Users/mikepica/Personal_Projects/az-demo/roles/innovation-lead/TELOS/INTERESTS.md",
+      "old_string": "# Interests\n\n## Professional Interests\n- How AI capability curves affect R&D investment decisions\n- Cross-functional collaboration patterns that actually work in pharma\n- Structured evaluation frameworks that surface invisible constraints early\n- The gap between \"interesting AI research\" and \"deployed AI tools that scientists use\"\n\n## Learning Goals\n- [ ] Deepen understanding of clinical trial endpoints and statistical design\n- [ ] Learn enough about transformer architectures to evaluate feasibility claims\n- [ ] Study successful AI deployments in pharma (case studies, failure modes)\n- [x] Build a repeatable constraint-first evaluation framework (using PAI)\n\n## Mentoring Preferences\n- **Willing to mentor on:** Cross-functional AI project evaluation, stakeholder management, constraint surfacing\n- **Seeking mentorship in:** Deep ML technical feasibility assessment, regulatory pathway knowledge\n- **Preferred format:** Written async (structured questions → responses), supplemented with short syncs",
+      "new_string": "# Interests\n\n## Professional Interests\n- How AI capability curves affect R&D investment decisions\n- Cross-functional collaboration patterns that actually work in pharma\n- Structured evaluation frameworks that surface invisible constraints early\n- The gap between \"interesting AI research\" and \"deployed AI tools that scientists use\"\n- **Enterprise AI adoption at scale** — what makes organizations actually change how they work\n- **Post-commoditization AI strategy** — when anyone can prototype, what stays scarce? (judgment, orchestration, governance)\n- **Agentic AI for process automation** — AI agents that automate healthcare workflows, approvals, document processing\n- **Decision support systems** — AI-powered insights, forecasting, clinical and business decision aids\n\n## Project Types I Want to Work On\n| Project Type | Interest Level | Why |\n|-------------|---------------|-----|\n| Agentic AI / Process Automation | High | Biggest near-term enterprise impact; automates visible pain points |\n| Decision Support / Analytics | High | Combines domain expertise with AI; high-value in clinical settings |\n| RAG / Knowledge Systems | Medium | Enables decision support; practical for internal knowledge management |\n| Customer/Patient-Facing AI | Low | Prefer internal enterprise adoption first |\n\n## Learning Goals\n- [ ] Build 3-5 code-assisted prototypes (LLM APIs + agentic frameworks) to develop intuition\n- [ ] Complete AI business case architecture framework for enterprise pitches\n- [ ] Study NIST AI RMF + FDA AI/ML guidance to become the \"can we do this?\" person\n- [ ] Deepen understanding of clinical trial endpoints and statistical design\n- [ ] Learn enough about transformer architectures to evaluate feasibility claims\n- [ ] Study successful AI deployments in pharma (case studies, failure modes)\n- [x] Build a repeatable constraint-first evaluation framework (using PAI)\n- [ ] Build a cross-industry AI patterns library (what works in fintech/retail → pharma translation)\n- [ ] Study organizational change management for AI adoption (Prosci or equivalent)\n\n## Mentoring Preferences\n- **Willing to mentor on:** Cross-functional AI project evaluation, stakeholder management, constraint surfacing, AI opportunity identification\n- **Seeking mentorship in:** Deep ML technical feasibility assessment, regulatory pathway knowledge, executive-level AI communication, enterprise data strategy\n- **Preferred format:** Written async (structured questions → responses), supplemented with short syncs"
+    },
+    "timestamp": "2026-02-08T13:40:21.853Z"
+  },
+  {
+    "name": "Edit",
+    "input": {
+      "replace_all": false,
+      "file_path": "/Users/mikepica/Personal_Projects/az-demo/roles/innovation-lead/TELOS/GOALS.md",
+      "old_string": "# Goals\n\n## Q2 2026\n- Select 3-5 high-impact AI projects for the AIXplore portfolio\n- Ensure cross-domain buy-in before any project enters pilot phase\n- Reduce idea-to-pilot timeline from 6 months to 8 weeks\n- Build a repeatable evaluation framework that captures team constraints early\n\n## Ongoing\n- Translate between R&D scientists (biology language) and data scientists (ML language)\n- Surface invisible cross-functional constraints before they block projects at month 4\n- Learn which constraint patterns predict project success vs. failure",
+      "new_string": "# Goals\n\n## Career Transition Goal (2026-2027)\n**Target Role:** AI Innovation Lead — the person who identifies the highest-value AI opportunities, proves they work, and orchestrates the organization to adopt them.\n\n**Positioning Statement:** \"I identify the highest-value AI opportunities in our enterprise, prove they work, and orchestrate the organization to adopt them.\" — This statement stays true whether prototyping takes 2 weeks or 2 hours.\n\n## Q2 2026\n- Select 3-5 high-impact AI projects for the AIXplore portfolio\n- Ensure cross-domain buy-in before any project enters pilot phase\n- Reduce idea-to-pilot timeline from 6 months to 8 weeks\n- Build a repeatable evaluation framework that captures team constraints early\n- Build 2 code-assisted prototypes (agentic AI + decision support) as proof of capability\n- Develop AI business case template and pitch it to at least one VP sponsor\n\n## Q3-Q4 2026\n- Complete Tier 1 skills development (prompt engineering, agentic frameworks, AI governance, business case architecture)\n- Launch at least 1 AI prototype that earns investment approval and handoff to delivery team\n- Begin Tier 2 skills (change management, cross-domain patterns, data strategy, vendor evaluation)\n- Build a \"wins log\" documenting every prototype, demo, and stakeholder reaction\n\n## 2027\n- Establish yourself as the enterprise go-to for \"should we build this AI solution?\"\n- Begin Tier 3 skills (board-level communication, AI portfolio management, enterprise architecture)\n- Start building external thought leadership (internal talks → conference talks → published insights)\n\n## Ongoing\n- Translate between R&D scientists (biology language) and data scientists (ML language)\n- Surface invisible cross-functional constraints before they block projects at month 4\n- Learn which constraint patterns predict project success vs. failure\n- Apply the \"what stays scarce\" filter: prioritize skills and projects around judgment, orchestration, and governance over pure technical implementation"
+    },
+    "timestamp": "2026-02-08T13:40:36.698Z"
+  },
+  {
+    "name": "Edit",
+    "input": {
+      "replace_all": false,
+      "file_path": "/Users/mikepica/Personal_Projects/az-demo/roles/innovation-lead/TELOS/STRATEGIES.md",
+      "old_string": "## S5: 3-Month AI Displacement Test\nBefore investing evaluation effort in any project, apply the displacement test: \"Will AI's exponential growth in 3 months make this work MORE valuable or OBSOLETE?\" Projects that ride the AI curve (amplifiers) pass. Projects that compete with AI's trajectory (bespoke solutions AI will do better) fail. Apply this gate BEFORE constraint mapping (S1) to avoid sunk evaluation cost on strategically misaligned projects.",
+      "new_string": "## S5: 3-Month AI Displacement Test\nBefore investing evaluation effort in any project, apply the displacement test: \"Will AI's exponential growth in 3 months make this work MORE valuable or OBSOLETE?\" Projects that ride the AI curve (amplifiers) pass. Projects that compete with AI's trajectory (bespoke solutions AI will do better) fail. Apply this gate BEFORE constraint mapping (S1) to avoid sunk evaluation cost on strategically misaligned projects.\n\n## S6: Proof Before Permission\nDon't ask for a budget to explore AI. Build a prototype against a visible pain point, demo it to the person who owns that pain, and let the demo create the demand. A working 5-minute demo beats a 30-slide strategy deck. Find one VP sponsor who gets it — one champion is worth more than org-wide awareness.\n\n## S7: Speak Outcomes, Not Technology\nHealthcare execs care about: time-to-decision, error reduction, compliance risk, FTE hours saved. They don't care about: LLMs, RAG, agentic, embeddings. Every pitch, every demo, every email — translate technology into the outcomes they're measured on.\n\n## S8: Build for the Post-Commoditization World\nWhen AI prototyping is commoditized (and it will be), three things stay scarce: (1) judgment about WHAT to build, (2) ability to orchestrate organizational change, (3) governance and risk judgment in regulated domains. Invest disproportionately in these skills. Technical depth serves as credibility fuel, not as the core value proposition.\n\n## S9: Compound Credibility Through a Wins Log\nDocument every prototype, demo, stakeholder reaction, and outcome in a running log. Each small win compounds into a portfolio that justifies bigger bets. The wins log becomes your budget justification, your promotion case, and your proof of capability — all in one artifact.\n\n## S10: Create FOMO as a Strategic Tool\nTrack what competitors and peer enterprises are doing with AI. \"Pfizer just deployed X\" or \"UnitedHealth reduced Y by 40% with AI\" is a powerful motivator for enterprise leadership who otherwise delay decisions."
+    },
+    "timestamp": "2026-02-08T13:40:55.618Z"
+  },
+  {
+    "name": "Edit",
+    "input": {
+      "replace_all": false,
+      "file_path": "/Users/mikepica/Personal_Projects/az-demo/roles/innovation-lead/TELOS/MISSION.md",
+      "old_string": "# Mission\n\nI identify and champion AI-driven R&D projects that accelerate drug discovery at AstraZeneca. I bridge the gap between what's scientifically possible and what's organizationally achievable.\n\nMy value is not in doing the science or building the models — it's in seeing across domains, spotting where AI can solve real workflow pain points, and building the cross-functional buy-in that gets projects from idea to pilot.\n\n**Strategic Filter (2026-02-07):** I focus exclusively on projects that benefit from the exponential increase in AI capabilities. I deprioritize any project where the work will be obsolete within 3 months due to AI advancement. The test is binary: \"Will AI's growth make this work MORE valuable (pursue) or OBSOLETE (deprioritize)?\"",
+      "new_string": "# Mission\n\nI identify the highest-value AI opportunities in our enterprise, prove they work through code-assisted prototypes, and orchestrate the organization to adopt them. I bridge the gap between what's scientifically possible and what's organizationally achievable.\n\nMy value is not in doing the science or building the models — it's in **judgment** (knowing WHAT to build), **influence** (getting it funded and adopted), and **governance** (knowing what's safe and compliant in healthcare). These skills stay valuable as AI building becomes commoditized.\n\n**Career Trajectory:** IC (Product/Strategy) → AI Innovation Lead (12-18 mo) → Sr. AI Strategy Lead (3-5 yr) → Director/VP AI Strategy (5-8 yr) → Chief AI/Innovation Officer (8-12 yr)\n\n**Strategic Filter (2026-02-07):** I focus exclusively on projects that benefit from the exponential increase in AI capabilities. I deprioritize any project where the work will be obsolete within 3 months due to AI advancement. The test is binary: \"Will AI's growth make this work MORE valuable (pursue) or OBSOLETE (deprioritize)?\"\n\n**Post-Commoditization Filter (2026-02-08):** When evaluating my own skill development, I ask: \"Will this skill be more valuable or less valuable when anyone can prototype AI solutions?\" I invest disproportionately in what stays scarce: problem selection judgment, organizational transformation, governance, and trust-based influence."
+    },
+    "timestamp": "2026-02-08T13:41:09.158Z"
+  },
+  {
+    "name": "Edit",
+    "input": {
+      "replace_all": false,
+      "file_path": "/Users/mikepica/Personal_Projects/az-demo/roles/innovation-lead/TELOS/DOMAIN_EXPERTISE.md",
+      "old_string": "## Domain Intersections\nI sit at the intersection of three domains that rarely talk to each other:\n- **Biology x ML:** I translate between what scientists need and what models can deliver\n- **Strategy x Technical Feasibility:** I filter ideas that are interesting but not achievable\n- **Regulatory x Innovation:** I flag compliance constraints before they block projects at month 4",
+      "new_string": "## Domains to Develop\n\n| Domain | Current | Target | Timeline | Why |\n|--------|---------|--------|----------|-----|\n| Agentic AI / Process Automation | Foundational | Intermediate | Q2-Q3 2026 | Top project interest; must demo credibly |\n| Enterprise AI Governance | Foundational | Intermediate | Q2-Q3 2026 | Healthcare = regulated; be the \"can we do this?\" authority |\n| Organizational Change Management | None | Intermediate | Q3-Q4 2026 | The bottleneck when everyone can build; adoption > implementation |\n| Enterprise Data Strategy | Foundational | Intermediate | Q3-Q4 2026 | Data moats > model moats; know the enterprise data landscape |\n| AI Portfolio Management | None | Intermediate | 2027 | Manage AI bets like a VC; executive trajectory skill |\n\n## Domain Intersections\nI sit at the intersection of domains that rarely talk to each other:\n- **Biology x ML:** I translate between what scientists need and what models can deliver\n- **Strategy x Technical Feasibility:** I filter ideas that are interesting but not achievable\n- **Regulatory x Innovation:** I flag compliance constraints before they block projects at month 4\n- **Technology x Organizational Change:** I understand not just what to build, but how to get 10,000 people to actually use it\n- **Domain Expertise x AI Judgment:** When AI prototyping is commoditized, deep domain knowledge + strategic judgment becomes the differentiator"
+    },
+    "timestamp": "2026-02-08T13:41:19.906Z"
+  },
+  {
+    "name": "TaskUpdate",
+    "input": {
+      "taskId": "4",
+      "status": "completed"
+    },
+    "timestamp": "2026-02-08T13:41:22.699Z"
+  },
+  {
+    "name": "TaskList",
+    "input": {},
+    "timestamp": "2026-02-08T13:41:25.640Z"
+  }
+]

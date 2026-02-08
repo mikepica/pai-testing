@@ -1,0 +1,10 @@
+{
+  "taskId": "001_build-pai-learning-talent-profile-plan",
+  "status": "PENDING",
+  "effortLevel": "STANDARD",
+  "criteria": [],
+  "antiCriteria": [],
+  "satisfaction": null,
+  "createdAt": "2026-02-08T13:01:57+00:00",
+  "updatedAt": "2026-02-08T13:08:22+00:00"
+}

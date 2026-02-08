@@ -1,0 +1,10 @@
+{
+  "taskId": "001_resume-and-complete-frozen-plan-task",
+  "status": "PENDING",
+  "effortLevel": "STANDARD",
+  "criteria": [],
+  "antiCriteria": [],
+  "satisfaction": null,
+  "createdAt": "2026-02-07T19:44:28+00:00",
+  "updatedAt": "2026-02-07T19:46:47+00:00"
+}

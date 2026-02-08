@@ -1,0 +1,10 @@
+{
+  "taskId": "001_explain-these-tools-to-me-how-they-work",
+  "status": "PENDING",
+  "effortLevel": "STANDARD",
+  "criteria": [],
+  "antiCriteria": [],
+  "satisfaction": null,
+  "createdAt": "2026-02-08T13:26:56+00:00",
+  "updatedAt": "2026-02-08T13:41:37+00:00"
+}

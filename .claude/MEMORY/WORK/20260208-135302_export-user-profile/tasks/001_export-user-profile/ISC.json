@@ -1,0 +1,10 @@
+{
+  "taskId": "001_export-user-profile",
+  "status": "PENDING",
+  "effortLevel": "QUICK",
+  "criteria": [],
+  "antiCriteria": [],
+  "satisfaction": null,
+  "createdAt": "2026-02-08T13:53:02+00:00",
+  "updatedAt": "2026-02-08T13:55:59+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "taskId": "001_create-ai-steering-rule-for-career-plann",
+  "status": "PENDING",
+  "effortLevel": "STANDARD",
+  "criteria": [],
+  "antiCriteria": [],
+  "satisfaction": null,
+  "createdAt": "2026-02-08T15:28:02+00:00",
+  "updatedAt": "2026-02-08T15:31:03+00:00"
+}
