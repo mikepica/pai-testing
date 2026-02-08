@@ -1,0 +1,425 @@
+{
+  "schema_version": "2.0.0",
+  "exported_at": "2026-02-08T13:52:58.000Z",
+  "role_id": "innovation-lead",
+
+  "narrative": {
+    "summary": "An AI Innovation Lead at AstraZeneca who sits at the intersection of biology, machine learning, and organizational strategy. With 8 years in pharma R&D operations and 5 years focused on AI strategy, they specialize in identifying which AI opportunities will actually work in a regulated healthcare environment — and building the cross-functional buy-in to get them from idea to pilot. Their distinctive value is not in building models, but in judgment: knowing what to build, what's safe to build, and how to get a 10,000-person organization to actually adopt it.",
+    "mission": "I identify the highest-value AI opportunities in our enterprise, prove they work through code-assisted prototypes, and orchestrate the organization to adopt them. I bridge the gap between what's scientifically possible and what's organizationally achievable.",
+    "value_proposition": "Uniquely positioned at the intersection of domains that rarely talk to each other — translating between biology and ML, filtering ideas through regulatory and feasibility lenses before investing effort, and building the trust-based relationships that convert prototypes into funded programs. In a world where anyone can build an AI prototype, the scarce skills are judgment about what to build, governance about what's safe, and influence to drive adoption. That's the core offering.",
+    "trajectory": "Currently an IC-level AI Innovation Lead, building toward Sr. AI Strategy Lead (3-5 years), then Director/VP AI Strategy (5-8 years), with a long-term trajectory toward Chief AI/Innovation Officer (8-12 years). Near-term focus is on building hands-on prototype credibility (code-assisted demos with LLM APIs and agentic frameworks) while deepening governance expertise to become the enterprise authority on 'can we do this safely?'",
+    "operating_principles": [
+      "The best AI projects solve a workflow pain point, not a technology gap",
+      "Cross-domain tension is a feature, not a bug — disagreement surfaces real constraints",
+      "Small pilots that prove value beat big proposals that stall in committee",
+      "'90% accuracy' is meaningless without context — what does the 10% miss cost?",
+      "The hardest part of AI in pharma isn't the model — it's the trust"
+    ],
+    "domain_intersections": [
+      "Biology x ML — translates between what scientists need and what models can deliver",
+      "Strategy x Technical Feasibility — filters ideas that are interesting but not achievable",
+      "Regulatory x Innovation — flags compliance constraints before they block projects at month 4",
+      "Technology x Organizational Change — understands not just what to build, but how to get 10,000 people to actually use it",
+      "Domain Expertise x AI Judgment — when AI prototyping is commoditized, deep domain knowledge + strategic judgment becomes the differentiator"
+    ],
+    "challenges_they_solve": [
+      "R&D scientists can describe biology but can't articulate AI feasibility — helps them surface what an ML model would actually need from their domain",
+      "Data scientists propose elegant technical solutions that don't solve real pain points — bridges the gap between 'interesting model' and 'useful tool'",
+      "Cross-functional constraints (regulatory, IT infrastructure, data governance) are invisible until they block a project at month 4 — surfaces them early",
+      "60% of time spent translating between domains — structuring that translation to free up time for strategy",
+      "AIXplore generates more ideas than can be evaluated — building faster evaluation without losing rigor"
+    ]
+  },
+
+  "capabilities": {
+    "current_skills": [
+      {
+        "name": "AI/ML Strategy",
+        "category": "technical",
+        "proficiency": "advanced",
+        "years": 5,
+        "last_used": "2026-02",
+        "why": "Core to the mission — evaluating which AI opportunities are worth pursuing and which will be obsolete in 3 months"
+      },
+      {
+        "name": "Project Portfolio Management",
+        "category": "technical",
+        "proficiency": "expert",
+        "years": 8,
+        "last_used": "2026-02",
+        "why": "Manages the AIXplore portfolio of simultaneous AI bets — fund, kill, or pivot based on evidence"
+      },
+      {
+        "name": "Cross-Functional Facilitation",
+        "category": "technical",
+        "proficiency": "expert",
+        "years": 7,
+        "last_used": "2026-02",
+        "why": "The mechanism for surfacing invisible constraints across biology, ML, regulatory, and IT teams before they block projects"
+      },
+      {
+        "name": "Stakeholder Communication",
+        "category": "technical",
+        "proficiency": "expert",
+        "years": 8,
+        "last_used": "2026-02",
+        "why": "Converts technical AI possibilities into business cases that VP sponsors fund — the bridge between prototype and investment"
+      },
+      {
+        "name": "Drug Discovery Workflow",
+        "category": "technical",
+        "proficiency": "intermediate",
+        "years": 4,
+        "last_used": "2026-02",
+        "why": "Domain context required to evaluate whether AI solutions actually address real workflow pain points in pharma R&D"
+      },
+      {
+        "name": "Data Governance & Compliance",
+        "category": "technical",
+        "proficiency": "intermediate",
+        "years": 3,
+        "last_used": "2026-01",
+        "why": "Healthcare is regulated — knowing data constraints early prevents projects from stalling at the compliance gate"
+      },
+      {
+        "name": "AI Business Case & ROI Modeling",
+        "category": "technical",
+        "proficiency": "intermediate",
+        "years": 2,
+        "last_used": "2026-02",
+        "why": "The skill that converts 'interesting prototype' into 'funded program' — critical for the trajectory toward AI strategy leadership"
+      },
+      {
+        "name": "Pharmaceutical R&D Landscape",
+        "category": "domain",
+        "proficiency": "advanced",
+        "years": 6,
+        "last_used": "2026-02",
+        "why": "Deep pharma context is what makes AI opportunity identification credible — without it, you're proposing solutions to problems you don't understand"
+      },
+      {
+        "name": "Regulatory Awareness (FDA/EMA)",
+        "category": "domain",
+        "proficiency": "intermediate",
+        "years": 4,
+        "last_used": "2026-01",
+        "why": "Regulatory constraints are hard constraints — knowing them early is the difference between a viable project and a 4-month waste"
+      },
+      {
+        "name": "Clinical Trial Design (Concepts)",
+        "category": "domain",
+        "proficiency": "foundational",
+        "years": 2,
+        "last_used": "2025-12",
+        "why": "Required context for evaluating the Clinical Trial Success Predictor and similar pipeline projects"
+      },
+      {
+        "name": "Cross-domain translation (biology ↔ ML)",
+        "category": "soft",
+        "proficiency": "expert",
+        "years": 5,
+        "last_used": "2026-02",
+        "why": "The core differentiator — most people speak one language, this role requires fluency in both to surface what's actually feasible"
+      },
+      {
+        "name": "Constraint-first evaluation",
+        "category": "soft",
+        "proficiency": "advanced",
+        "years": 3,
+        "last_used": "2026-02",
+        "why": "Maps blockers before investing effort — prevents the most common failure mode in enterprise AI projects"
+      },
+      {
+        "name": "Executive storytelling",
+        "category": "soft",
+        "proficiency": "advanced",
+        "years": 5,
+        "last_used": "2026-02",
+        "why": "3-minute pitch for every prototype, speaking in outcomes not technology — the skill that gets ideas funded"
+      },
+      {
+        "name": "Trust-based influence",
+        "category": "soft",
+        "proficiency": "advanced",
+        "years": 5,
+        "last_used": "2026-02",
+        "why": "Building the sponsor relationships that convert ideas into investments — influence without authority in a matrixed organization"
+      }
+    ],
+    "developing": [
+      {
+        "name": "Prompt Engineering & LLM APIs",
+        "current_level": "foundational",
+        "target_level": "intermediate",
+        "timeline": "Next 3 months",
+        "why": "Foundation for every prototype; builds intuition for what's feasible"
+      },
+      {
+        "name": "Agentic AI Frameworks (LangGraph/CrewAI)",
+        "current_level": "foundational",
+        "target_level": "intermediate",
+        "timeline": "Next 3 months",
+        "why": "Top project interest; must demo credibly to earn investment"
+      },
+      {
+        "name": "AI Business Case Architecture",
+        "current_level": "intermediate",
+        "target_level": "advanced",
+        "timeline": "Next 3 months",
+        "why": "Converts prototypes to funded programs; stakeholder buy-in weapon"
+      },
+      {
+        "name": "Healthcare AI Governance (NIST AI RMF, FDA)",
+        "current_level": "foundational",
+        "target_level": "intermediate",
+        "timeline": "Next 3 months",
+        "why": "Regulatory judgment can't be automated; be the 'can we do this?' person"
+      },
+      {
+        "name": "Organizational Change Management",
+        "current_level": "foundational",
+        "target_level": "intermediate",
+        "timeline": "Months 3-9",
+        "why": "When everyone can prototype, the bottleneck is adoption"
+      },
+      {
+        "name": "Cross-Domain Pattern Recognition",
+        "current_level": "intermediate",
+        "target_level": "advanced",
+        "timeline": "Months 3-9",
+        "why": "Translating what works in fintech/retail to pharma = unique value"
+      },
+      {
+        "name": "Enterprise Data Strategy",
+        "current_level": "foundational",
+        "target_level": "intermediate",
+        "timeline": "Months 3-9",
+        "why": "Models commoditize, data doesn't; know where the enterprise gold is"
+      },
+      {
+        "name": "RAG Architecture Patterns",
+        "current_level": "foundational",
+        "target_level": "intermediate",
+        "timeline": "Months 3-9",
+        "why": "Decision support systems need retrieval; core project interest"
+      },
+      {
+        "name": "Board-Level AI Communication",
+        "current_level": "none",
+        "target_level": "foundational",
+        "timeline": "Months 9-18",
+        "why": "Translate AI implications into business risk/opportunity for non-technical leaders"
+      },
+      {
+        "name": "AI Portfolio Management",
+        "current_level": "foundational",
+        "target_level": "intermediate",
+        "timeline": "Months 9-18",
+        "why": "Manage a portfolio of AI bets like a VC — fund/kill/pivot on evidence"
+      }
+    ],
+    "domain_expertise": [
+      {
+        "domain": "AI/ML in Drug Discovery",
+        "depth": "advanced",
+        "years": 5,
+        "specific_areas": "Project selection, feasibility assessment, portfolio management",
+        "priority": "Primary"
+      },
+      {
+        "domain": "Pharmaceutical R&D Operations",
+        "depth": "advanced",
+        "years": 8,
+        "specific_areas": "Cross-functional coordination, stakeholder alignment, constraint surfacing",
+        "priority": "Primary"
+      },
+      {
+        "domain": "Clinical Trials",
+        "depth": "foundational",
+        "years": 2,
+        "specific_areas": "Endpoint concepts, trial phases, regulatory awareness",
+        "priority": "Supporting"
+      },
+      {
+        "domain": "Data Science (Concepts)",
+        "depth": "intermediate",
+        "years": 3,
+        "specific_areas": "Model evaluation, explainability requirements, data quality assessment",
+        "priority": "Supporting"
+      },
+      {
+        "domain": "Regulatory Affairs",
+        "depth": "foundational",
+        "years": 2,
+        "specific_areas": "FDA/EMA submission awareness, GDPR data governance",
+        "priority": "Supporting"
+      }
+    ]
+  },
+
+  "evidence": {
+    "career": [
+      {
+        "title": "AI Innovation Lead",
+        "organization": "AstraZeneca",
+        "start_date": "2023-01",
+        "end_date": "Present",
+        "focus": "AIXplore portfolio, cross-functional AI project evaluation"
+      },
+      {
+        "title": "Senior Program Manager",
+        "organization": "AstraZeneca",
+        "start_date": "2020-06",
+        "end_date": "2022-12",
+        "focus": "R&D program management, stakeholder alignment"
+      },
+      {
+        "title": "Project Manager",
+        "organization": "Pharma Startup",
+        "start_date": "2018-03",
+        "end_date": "2020-05",
+        "focus": "Drug discovery pipeline coordination"
+      }
+    ],
+    "projects": [
+      {
+        "name": "Clinical Trial Success Predictor",
+        "role_in_project": "Evaluator / Champion",
+        "duration": "2026-01 – present",
+        "outcome": "Evaluating — needs team constraint input",
+        "skills_used": "Cross-functional facilitation, constraint mapping"
+      },
+      {
+        "name": "Compound Screening ML",
+        "role_in_project": "Sponsor",
+        "duration": "2025-10 – present",
+        "outcome": "In pilot, showing early results on small molecules",
+        "skills_used": "Portfolio management, stakeholder communication"
+      },
+      {
+        "name": "Lab Notebook NLP",
+        "role_in_project": "Evaluator",
+        "duration": "2025-11 – present",
+        "outcome": "Backlog — data access unclear",
+        "skills_used": "Data governance awareness"
+      },
+      {
+        "name": "Predictive Biomarkers",
+        "role_in_project": "Evaluator",
+        "duration": "2025-09 – 2026-02",
+        "outcome": "Deprioritized — fails 3-month AI displacement test",
+        "skills_used": "AI strategy, first principles evaluation"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "PMP",
+        "issuer": "PMI",
+        "obtained": "2019",
+        "expires": "2025",
+        "status": "Renewal pending"
+      },
+      {
+        "name": "AI for Healthcare (Certificate)",
+        "issuer": "Stanford Online",
+        "obtained": "2024",
+        "expires": null,
+        "status": "Active"
+      }
+    ],
+    "education": [
+      {
+        "degree": "MBA",
+        "institution": "Not specified",
+        "year": "2017",
+        "focus": "Strategy & Operations"
+      },
+      {
+        "degree": "BS Biology",
+        "institution": "Not specified",
+        "year": "2014",
+        "focus": "Molecular Biology"
+      }
+    ]
+  },
+
+  "current_state": {
+    "active_projects": [
+      {
+        "name": "Clinical Trial Success Predictor",
+        "role": "Evaluator / Champion",
+        "status": "Currently in constraint-gathering phase"
+      },
+      {
+        "name": "Compound Screening ML",
+        "role": "Sponsor",
+        "status": "In pilot — monitoring, not driving"
+      }
+    ],
+    "learning_goals": [
+      {
+        "goal": "Build 3-5 code-assisted prototypes (LLM APIs + agentic frameworks) to develop intuition",
+        "target_date": null,
+        "completed": false
+      },
+      {
+        "goal": "Complete AI business case architecture framework for enterprise pitches",
+        "target_date": null,
+        "completed": false
+      },
+      {
+        "goal": "Study NIST AI RMF + FDA AI/ML guidance to become the 'can we do this?' person",
+        "target_date": null,
+        "completed": false
+      },
+      {
+        "goal": "Deepen understanding of clinical trial endpoints and statistical design",
+        "target_date": null,
+        "completed": false
+      },
+      {
+        "goal": "Learn enough about transformer architectures to evaluate feasibility claims",
+        "target_date": null,
+        "completed": false
+      },
+      {
+        "goal": "Study successful AI deployments in pharma (case studies, failure modes)",
+        "target_date": null,
+        "completed": false
+      },
+      {
+        "goal": "Build a repeatable constraint-first evaluation framework (using PAI)",
+        "target_date": null,
+        "completed": true
+      },
+      {
+        "goal": "Build a cross-industry AI patterns library (fintech/retail to pharma translation)",
+        "target_date": null,
+        "completed": false
+      },
+      {
+        "goal": "Study organizational change management for AI adoption (Prosci or equivalent)",
+        "target_date": null,
+        "completed": false
+      }
+    ],
+    "availability": {
+      "percent_available": 70,
+      "preferred_project_size": "Medium (4-8 week pilots)",
+      "timezone": "US Pacific (PT)",
+      "last_updated": "2026-02-07"
+    },
+    "seeking": [
+      "Deep ML technical feasibility assessment mentorship",
+      "Regulatory pathway knowledge mentorship",
+      "Executive-level AI communication mentorship",
+      "Enterprise data strategy mentorship"
+    ],
+    "offering": [
+      "Cross-functional AI project evaluation mentoring",
+      "Stakeholder management mentoring",
+      "Constraint surfacing methodology",
+      "AI opportunity identification"
+    ]
+  }
+}
