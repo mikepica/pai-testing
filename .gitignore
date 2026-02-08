@@ -4,3 +4,5 @@ node_modules/
 *.sqlite
 .env
 .env.local
+.obsidian/workspace.json
+.claude/hooks/*.log
